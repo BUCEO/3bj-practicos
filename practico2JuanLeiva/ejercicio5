@@ -1,2 +1,6 @@
+-consigna-
+Escribir un script que pueda mostrar información de un comando al ejecutar dicho script y pasar como parámetro el comando.
+
+-codigo-
 comando=$1
 whatis "$comando"
