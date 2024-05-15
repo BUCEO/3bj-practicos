@@ -1,0 +1,1000 @@
+  341  sudo su -
+  342  exit
+  343  passwd 
+  344  su root
+  345  exit
+  346  sudo su -
+  347  cd
+  348  cd BUCEO/
+  349  cd 3BH/
+  350  cd
+  351  ssh-keygen
+  352  cd BUCEO/
+  353  cd 3BH
+  354  git clone git@github.com:BUCEO/DockerLaravelMySQL.git
+  355  ls
+  356  cd DockerLaravelMySQL/
+  357  ls
+  358  vim TODO 
+  359  git 
+  360  git status
+  361  ls -l
+  362  git -a  Proyecto/
+  363  git -a  Proyecto
+  364  git add   Proyecto
+  365  git status
+  366  git add modelo-login-UML.drawio 
+  367  git status
+  368  git add TODO 
+  369  git status 
+  370  git commit  -m "Lista de tareas y diagramas UML"
+  371  git status 
+  372  git push 
+  373  git commit  -m "Diagramsa UML en PNG"
+  374  git add  .
+  375  git commit  -m "Diagramsa UML en PNG"
+  376  git push 
+  377  docker-compose up 
+  378  docker-compose ps
+  379  docker-compose build 
+  380  docker-compose up 
+  381  cd ..
+  382  ls -l
+  383  mkdir 3BD
+  384  cd 3BD
+  385  ls
+  386  pwd
+  387  sudo apt install docker
+  388  sudo apt install git
+  389  git clone git@github.com:Azure-Samples/dotnetcore-docs-hello-world.git
+  390  cd dotnetcore-docs-hello-world/
+  391  ls
+  392  docker run cd
+  393  cd
+  394  ·git@github.com:leaderanalytics/AdaptiveClient.EntityFramework.Zamagon.git
+  395  mkdir soporte
+  396  cd soporte/
+  397  git clone git@github.com:leaderanalytics/AdaptiveClient.EntityFramework.Zamagon.git
+  398  git clone https://github.com/bryanjhogan/WebApiEntityFrameworkDockerSqlServer.git
+  399  cd WebApiEntityFrameworkDockerSqlServer/
+  400  ls
+  401  vim Program.cs 
+  402  cd Controllers/
+  403  ls
+  404  cd ..
+  405  ls
+  406  cd Data/
+  407  ls
+  408  cd ..
+  409  ls
+  410  vim WebApiEntityFrameworkDockerSqlServer.csproj 
+  411  exit
+  412  wsl --help
+  413  exit
+  414  cd 3BG/
+  415  ls
+  416  rm -r Practico/
+  417  ls 
+  418  ssh-keygen
+  419  cd
+  420  cd .ssh/
+  421  cat id_rsa.pub 
+  422  pwd
+  423  ls -l
+  424  cat id_rsa.pub 
+  425  cd
+  426  clear
+  427  git clone git@github.com:UTU-ISBO/FundamentosIngenieria.git
+  428  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  429  sudo usermod -aG docker $USER
+  430  docker run --rm -it hello-world
+  431  docker
+  432  docker run --rm -it hello-world
+  433  systemctl docker start
+  434  systemctl docker.d start
+  435  cd /etc/init.d/
+  436  ls
+  437  cd /usr/bin/
+  438  docker-compose 
+  439  docker-compose start
+  440  cd
+  441  ls
+  442  # Install Docker
+  443  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  444  ocker.list > /dev/null
+  445  sudo apt update
+  446  docker run --rm -it hello-world
+  447  reboot 
+  448  exit
+  449  cd .ssh/
+  450  cat authorized_keys 
+  451  ssh-keygen 
+  452  ls -l
+  453  git config 
+  454  cd
+  455  cd 3bj/
+  456  ls
+  457  ls -l
+  458  wsl --list --online 
+  459  exit
+  460  wsl --update
+  461  cd
+  462  ls
+  463  cd 3bj/
+  464  ls
+  465  git status
+  466  ls
+  467  git checkstatus
+  468  git status
+  469  cd DockerLaravelMySQL/
+  470  git status
+  471  pwd
+  472  git commit -m "mi primer commit"
+  473  ls
+  474  cd doc/
+  475  ls
+  476  cd ..
+  477  git status
+  478  git add doc/Run\ Docker\ in\ WSL2\ in\ 5\ minutes\ \(via\ systemd\,\ without\ Docker\ Desktop.pdf
+  479  vim .gitignore 
+  480  git status 
+  481  git add .
+  482  git status
+  483  git commit -m "Documentaciòn instalar docker"
+  484  git push
+  485  clear
+  486  uname -na
+  487  cat /etc/issue
+  488  exit
+  489  # Install Docker
+  490  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  491  docker run --rm -it hello-world
+  492  cd 3bj/
+  493  ls
+  494  cd DockerLaravelMySQL/
+  495  docker-compose up
+  496  sudo docker-compose up
+  497  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  498  " | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  499  sudo apt update
+  500  sudo apt install -y docker-ce docker-compose-plugin
+  501  # Install docker-compose
+  502  sudo ln -s /usr/libexec/docker/cli-plugins/docker-compose /usr/bin/docker-compose
+  503  # Add yourself to the docker group
+  504  sudo usermod -aG docker $USER
+  505  # Exit bash - this is importantcurl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg!
+  506  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  507  sudo apt update
+  508  sudo docker-compose up
+  509  docker run --rm -it hello-world
+  510  {
+  511  cat <<EOT[boot]
+  512  systemd=true
+  513  EOT
+  514   } | sudo tee /etc/wsl.conf
+  515  wsl2 --shutdown
+  516  exit
+  517  cd
+  518  pwd
+  519  cd 3bj/
+  520  cd DockerLaravelMySQL/
+  521  docker-compose up
+  522  docker run --rm -it hello-world
+  523  sudo apt install docker 
+  524  systemctl start docker
+  525  sudo systemctl start docker
+  526  sudo systemctl start docker.d
+  527  cd
+  528  vim /etc/docker/daemon.json
+  529  sudo echo '{"hosts": ["tcp://0.0.0.0:2375", "unix:///var/run/docker.sock"]}' > /etc/docker/daemon.json
+  530  cd /etc/docker/
+  531  ls
+  532  sudo 
+  533  sudo su -
+  534  sudo apt-get update
+  535  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  536  apt list docker
+  537  dpkg -l |grep docker
+  538  url -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+  539  echo   "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+  540    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  541  echo   "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+  542    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  543  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+  544  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  545  se-plugin
+  546  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  547  do apt update
+  548  sudo apt install -y docker-ce docker-compose-plugin
+  549  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  550  sudo apt install -y docker-ce docker-compose-plugin
+  551  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  552  cat /etc/issue
+  553  sudo apt install -y curl
+  554  $ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/install-docker.sh | /bin/bash
+  555  curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/install-docker.sh | /bin/bash
+  556  cd
+  557  docker run --rm -it hello-world
+  558  service start docker
+  559  service docker start
+  560  sudo service docker start
+  561  service docker start
+  562  docker run --rm -it hello-world
+  563  sudo docker run --rm -it hello-world
+  564  echo "export DOCKER_HOST=tcp://localhost:2375" >> ~/.bashrc && source ~/.bashrc
+  565  docker-compose --version
+  566  service start docker
+  567  service docker start
+  568  sudo service docker start
+  569  exit
+  570  cd
+  571  sudo service docker start
+  572  docker ps
+  573  sudo docker ps
+  574  ps -aux |grep docker
+  575  netstat -nap |grep docker
+  576  sudo netstat -nap |grep docker
+  577  cat /etc/issue
+  578  exit
+  579  clear
+  580  cd
+  581  ls
+  582  cd 3bj/
+  583  ls
+  584  cd DockerLaravelMySQL/
+  585  docker 
+  586  docker ps
+  587  ufw disable
+  588  sudo ufw disable
+  589  clear
+  590  exit
+  591  cd
+  592  docket
+  593  docker ps
+  594  sudo docker ps
+  595  sudo dockerd
+  596  exit
+  597  docker ps
+  598  cd 3bj
+  599  cd DockerLaravelMySQL/
+  600  ls
+  601  docker-compose up -d
+  602  docker run hello-word
+  603  curl -L https://github.com/laravel/laravel/archive/v5.3.16.tar.gz | tar xz
+  604  ls
+  605  mv laravel-5.3.16/ ../../
+  606  cd
+  607  ls
+  608  cd laravel-5.3.16/
+  609  ls
+  610  vim server.php 
+  611  curl -s https://laravel.build/example-app | bash
+  612  cd example-app && ./vendor/bin/sail up
+  613  ls
+  614  exi
+  615  exit
+  616  cd .ssh/
+  617  ls -l
+  618  cat authorized_keys 
+  619  ssh-keygen 
+  620  ls -l
+  621  exit
+  622  ls
+  623  ip a
+  624  dpkg -l |grep openssh-server
+  625  sudo apt install openssh-server
+  626  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  627  sudo apt-get update
+  628  echo "sudo service docker start" >> ~/.profile
+  629  #echo "cd /mnt/" >> ~/.profile
+  630  source ~/.profile
+  631  echo "sudo service docker start" >> ~/.profile
+  632  source ~/.profile
+  633  sudo service docker start
+  634  docker.service failed because the control process exited with error code.
+  635  sudo update-alternatives --config iptables
+  636  sudo service docker start
+  637  /etc/init.d/docker start
+  638  sudo /etc/init.d/docker start
+  639  dockerd
+  640  sudo dockerd
+  641  sudo dockerd -d
+  642  sudo dockerd &&
+  643  vim .profile 
+  644  exit
+  645  clear
+  646  cd
+  647  pwd
+  648  git clone git@github.com:UTU-2024/LaravelWEB.git
+  649  git satus
+  650  git staus
+  651  git status
+  652  pwd
+  653  cd LaravelWEB/
+  654  git status
+  655  ls
+  656  vim env
+  657  git status
+  658  git add .
+  659  git status
+  660  ls -l
+  661  git commit -m "Se agregaron las variables de entorno"
+  662  git push
+  663  git status
+  664  cd ..
+  665  pwd
+  666  cd laravel-web
+  667  ls
+  668  cd laravel-docker/
+  669  ls
+  670  cd ..
+  671  pwd
+  672  ls -l
+  673  cd LaravelWEB/
+  674  ls
+  675  laravel new BMascotas
+  676  apt install laravel11
+  677  sudo apt install laravel11
+  678  sudo apt install laravel
+  679  clear
+  680  sudo add-apt-repository ppa:nginx/stable
+  681  clear
+  682  sudo apt update
+  683  cd
+  684  pwd
+  685  exit
+  686  pwd
+  687  cd
+  688  pwd
+  689  ls
+  690  cd 3BG
+  691  ls
+  692  git
+  693  git clone git@github.com:BUCEO/DockerLaravelMySQL.git
+  694  exit
+  695  uname -na 
+  696  ip a
+  697  cat /etc/issue
+  698  hostname
+  699  mkdir 3BC
+  700  cd 3BC/
+  701  git status
+  702  ls
+  703  pwd
+  704  clear
+  705  pwd
+  706  git clone git@github.com:BUCEO/DockerLaravelMySQL.git
+  707  cd
+  708  cat .ssh/id_rsa.pub 
+  709  git clone git@github.com:BUCEO/DockerLaravelMySQL.git
+  710  sudo dockerd
+  711  docker ps
+  712  cd laravel-docker/
+  713  s
+  714  ls
+  715  vim docker-compose.yml 
+  716  exit
+  717  cd
+  718  cd 3BC/
+  719  git clone https://github.com/TwilioDevEd/account-security-csharp.git
+  720  ls
+  721  ls -l
+  722  cd account-security-csharp/
+  723  ls
+  724  vim README.md 
+  725  lynx readm
+  726  dotnet restore 
+  727  sudo apt install dotnet-sdk
+  728  sudo apt install dotnet-sdk 
+  729  snap install dotnet-sdk
+  730  sudo snap install dotnet-sdk
+  731  sudo snap install dotnet-sdk --classic
+  732  docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=yourStrong(!)Password' -p 1433:1433 --name mssql -d microsoft/mssql-server-linux:latest
+  733  sudo dockerd
+  734  sudo dockerd $$
+  735  clear
+  736  docker ps
+  737  sudo dockerd $$
+  738  sudo dockerd &$$
+  739  docker ps
+  740  docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Password' -p 1433:1433 --name mssql -d microsoft/mssql-server-linux:latest
+  741  sudo docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Password' -p 1433:1433 --name mssql -d microsoft/mssql-server-linux:latest
+  742  docker run
+  743  dotnet tool install --global dotnet-ef --version 3.1.4
+  744  dotnet run --environment development 
+  745  ls -l
+  746  exit
+  747  clear
+  748  sudo apt install apache 
+  749  sudo apt install apache2
+  750  clear
+  751  exit
+  752  wsl 
+  753  wsl
+  754  clear
+  755  exit
+  756  cat /etc/issue
+  757  uname -na
+  758  pwd
+  759  mount
+  760  cat /etc/fstab 
+  761  mtab
+  762  cat /etc/mtab 
+  763  pwd
+  764  dpkg -l |grep apache
+  765  apt install mysql
+  766  sudo apt install mysql
+  767  sudo apt search mysql-server
+  768  sudo apt install mysql-server-8.0
+  769  netstat -nap |grep 80
+  770  netstat -nap |grep 443
+  771  netstat -nap |grep 3306
+  772  cd /etc/mysql/conf.d/
+  773  ls
+  774  cd
+  775  cd /etc/apache2/
+  776  ls
+  777  vim apache2.conf 
+  778  cd sites-enabled/
+  779  ls -l
+  780  vim 000-default.conf 
+  781  cd
+  782  ssh-keygen
+  783  cd .ssh/
+  784  ls 
+  785  cat id_rsa.pub 
+  786  clear
+  787  mysql
+  788  sudo mysql
+  789  cd 
+  790  cd /var/lib/mysql
+  791  sudo su -
+  792  sudo apt install php
+  793  cd /var/www/html/
+  794  ls
+  795  vim index.php
+  796  sudo vim index.php
+  797  vim index.
+  798  vim index.php 
+  799  sudo vim index.php 
+  800  cp index.php /home/juan/
+  801  cd
+  802  cd SistemasOperativos/
+  803  git config --user.email "damian.pajares@docente.ceibal.edu.uy"
+  804  git config --user.mail "damian.pajares@docente.ceibal.edu.uy"
+  805  git config user.mail "damian.pajares@docente.ceibal.edu.uy"
+  806  cd .git
+  807  git clone git@github.com:BUCEO/Docker.git
+  808  cd Docker/
+  809  ls
+  810  cp /home/juan/index.php 
+  811  cp /home/juan/index.php  .
+  812  ls
+  813  add index.php 
+  814  git add index.php 
+  815  git commit -m "Agrego hola mundo en php"
+  816  vim index.php 
+  817  less index.php 
+  818  git push 
+  819  ssh-keygen
+  820  cd
+  821  cd .ssh/
+  822  ls -l
+  823  cat id_rsa.pub 
+  824  sudo apt install git
+  825  exit
+  826  woh
+  827  who
+  828  ip a
+  829  pwd
+  830  ls
+  831  mkdir Docker
+  832  rm Docker/
+  833  rm -R Docker/
+  834  mkdir SistemasOperativos
+  835  cd SistemasOperativos/
+  836  pwd
+  837  git clone git@github.com:BUCEO/Docker.git
+  838  cd Docker/
+  839  ls
+  840  git config --global user.email "damian.pajares@docente.ceibal.edu.uy"
+  841  cd
+  842  cd .ssh/
+  843  cat id_rsa.pub 
+  844  cd
+  845  cd SistemasOperativos/
+  846  ls
+  847  cd Docker/
+  848  vim  TODO
+  849  git add
+  850  git add TODO 
+  851  git commit -m "mi primer Commit"
+  852  git push
+  853  pwd
+  854  git status
+  855  cd
+  856  sudo apt install apache 
+  857  dpkg -l |grep apache
+  858  sudo  apt install apache2
+  859  clear
+  860  ufw allow 80,443
+  861  sudo ufw allow 80,443
+  862  sudo ufw allow tcp/80,tcp/443
+  863  sudo ufw allow 80
+  864  sudo ufw allow 443
+  865  sudo ufw list
+  866  sudo apt install mysql 
+  867  dpkg -l |grep apache
+  868  cd /etc/apache2/
+  869  ls
+  870  vim apache2.conf 
+  871  ls
+  872  vim ports.conf 
+  873  netstat -na
+  874  netstat -na |grep 443
+  875  netstat -na |grep  80
+  876  ls
+  877  vim sites-enabled/000-default.conf 
+  878  cd /var/www/html/
+  879  ls
+  880  vim index.html 
+  881  clear
+  882  dpkg -l |grep mysql
+  883  apt intall mysql-server
+  884  sudo apt install mysql-server
+  885  pwd
+  886  clear
+  887  cd
+  888  cleear
+  889  clear
+  890  pwd
+  891  mysql 
+  892  sudo mysql
+  893  cd SistemasOperativos/
+  894  git clone /home/juan/.ssh/id_rsa/home/juan/.ssh/id_rsa
+  895  cdd ..
+  896  cd ..
+  897  cat /etc/issue
+  898  ls
+  899  cd ITI
+  900  mkdir ITI
+  901  cd ITI
+  902  git clone git@github.com:UTU-2024/LaravelWEB.git
+  903  sudo apt install git
+  904  ls
+  905  cd LaravelWEB/
+  906  ls -l
+  907  vim miembros 
+  908  git status
+  909  touch usuarios
+  910  git status
+  911  git add .
+  912  git commit -m "agrege ci a mibros, y archivo en blanco de usuarios"
+  913  git status
+  914  git push 
+  915  git config user.email "damian.pajares@docente.ceibal.uy" 
+  916  cd
+  917  ssh-keygen 
+  918  cat .ssh/
+  919  cd .ssh/
+  920  ls -l
+  921  cat id_rsa.pub 
+  922  cd
+  923  cd ../
+  924  ls -l
+  925  cd
+  926  cd .ssh/
+  927  ls -l
+  928  sudo apt install php
+  929  sudo apt install mysql-server
+  930  sudo apt install apache2
+  931  dpkg -l |grep mysql
+  932  mysql -u root -p
+  933  mysql -u root 
+  934  sudo su -
+  935  pwd
+  936  cd
+  937  pwd
+  938  cd ITI/
+  939  pwd
+  940  hostname
+  941  ip a
+  942  vim /etc/wsl.conf 
+  943  cd
+  944  clear
+  945  cat /etc/apt/sources.list.d/docker.list
+  946  sudo apt install -y docker-ce docker-compose-plugin
+  947  cat /etc/group |grep docker
+  948  docker run --rm -it hello-world
+  949  ls
+  950  cd laravel-docker/
+  951  ls
+  952  vim docker-compose.yml 
+  953  clear
+  954  ls -l
+  955  sudo docker-compose up -d
+  956  systemctl stop apache2
+  957  systemctl stop mysql 
+  958  sudo docker-compose up -d
+  959  docker ps
+  960  pwd
+  961  dpkg -l docker
+  962  cat /etc/issue
+  963  pwd
+  964  sudo su -
+  965  pws
+  966  docker-compose up
+  967  sudo systemctl stop apache2
+  968  sudo systemctl stop 
+  969  docker-compose up
+  970  netstat -na |more
+  971  ls
+  972  sudo docker-compose up
+  973  exit
+  974  cd
+  975  cat /etc/issue
+  976  ls -l
+  977  cd LaravelWEB/
+  978  ls
+  979  cd ..
+  980  cd laravel-docker/
+  981  ls
+  982  git -m "Proyecto Base con laravel"
+  983  git commit -m "Proyecto Base con laravel"
+  984  cd .git
+  985  ls
+  986  vim config 
+  987  ls
+  988  vin config 
+  989  ls
+  990  vi .ignore
+  991  git commit -m "Proyecto Base con laravel"
+  992  cd ..
+  993  git commit -m "Proyecto Base con laravel"
+  994  vi .gitignore
+  995  git commit -m "Proyecto Base con laravel"
+  996  git commit -m "se quita el proyecto vs "
+  997  git add .
+  998  git commit -m "se quita el proyecto vs "
+  999  ls -l
+ 1000  git remote add origin git@github.com:BUCEO/laravel-Docker.git
+ 1001  git push -u origin main
+ 1002  ls -l
+ 1003  git init
+ 1004  git status
+ 1005  git add .
+ 1006  ls
+ 1007  git status
+ 1008  git commit  -m "First Commit"
+ 1009  git push 
+ 1010  ls
+ 1011  rm -rf .git
+ 1012  git init
+ 1013  git commit  -m "First Commit"
+ 1014  git add .
+ 1015  git commit  -m "First Commit"
+ 1016  git push
+ 1017  git remote add origin git@github.com:BUCEO/laravel-Docker.git
+ 1018  git push
+ 1019  git push --set-upstream origin master
+ 1020  git push
+ 1021  cd ..
+ 1022  ls
+ 1023  cat /etc/issue
+ 1024  clear
+ 1025  cd FundamentosIngenieria/
+ 1026  ls
+ 1027  vim README.md 
+ 1028  git status
+ 1029  vim .gitignore
+ 1030  git status
+ 1031  git add .gitignore 
+ 1032  git commt -m "se arega el gitignor"
+ 1033  git commit -m "se arega el gitignor"
+ 1034  git status
+ 1035  git push
+ 1036  cd .git/
+ 1037  vim config 
+ 1038  git push
+ 1039  cd ..
+ 1040  git status
+ 1041  git add README.md 
+ 1042  git commit -m "se actualiza el readme con instrucciones docker"
+ 1043  git push
+ 1044  exit
+ 1045  ip a
+ 1046  passwd 
+ 1047  sudo systemctl stop dockerd
+ 1048  sudo systemctl stop docker
+ 1049  sudo systemctl stop  mysql
+ 1050  sudo systemctl stop  apache2
+ 1051  cd laravel-docker/
+ 1052  ls
+ 1053  cat docker-compose.yml 
+ 1054  :q
+ 1055  clear
+ 1056  docker-compose up -d
+ 1057  clearclear
+ 1058  clear
+ 1059  sudo systemctl start docker 
+ 1060  sudo systemctl start dockerd 
+ 1061  sudo /etc/init.d/docker start
+ 1062  ps -aux|grep docker
+ 1063  docker-compose up -d
+ 1064  qclear
+ 1065  cld
+ 1066  clear
+ 1067  ping google.com
+ 1068  ls
+ 1069  exit
+ 1070  dpkg -l |grep ssh
+ 1071  ls
+ 1072  cd laravel-docker/
+ 1073  ls -l
+ 1074  sudo docker-compose up
+ 1075  ls
+ 1076  history 
+ 1077  cd laravel-docker/
+ 1078  docker-compose up -d
+ 1079  docker ps
+ 1080  netstat -nap |grep 80
+ 1081  systemctl stop apache2
+ 1082  docker ps
+ 1083  mysql -p
+ 1084  mysql -u root
+ 1085  mysql -u root -p
+ 1086  mysql -u root -p -h localhost
+ 1087  netstat -nap |grep 3306
+ 1088  sudo systemctl stop mysql
+ 1089  netstat -nap |grep 3306
+ 1090  mysql -u root -p -h localhost
+ 1091  docker ps
+ 1092  docker -ti 801624711b4a 
+ 1093  docker exec  -ti 801624711b4a 
+ 1094  docker exec  -ti 801624711b4a mysql -p
+ 1095  docker exec  -ti 801624711b4a mysql -u root 
+ 1096  docker exec  -ti 801624711b4a mysql -u root -p
+ 1097  docker exec  -ti 801624711b4a bash
+ 1098  docker-compose down
+ 1099  vim docker-compose.yml 
+ 1100  docker-compose up -d
+ 1101  mysql -p -u root
+ 1102  mysql -p -u root -h db
+ 1103  docker ps
+ 1104  mysql -p -u root -h laravel-docker_db
+ 1105  mysql -p -u root -h laravel-docker_db1
+ 1106  mysql -p -u root -h laravel-docker_db_1
+ 1107  docker exec  -ti 0c952b0c803d mysql -u root -proto1234
+ 1108  docker exec  -ti 0c952b0c803d mysql -u root 
+ 1109  docker exec  -ti 0c952b0c803d mysql -u root -p
+ 1110  ls
+ 1111  cd config/
+ 1112  ls
+ 1113  cat auth.php 
+ 1114  cat database.php 
+ 1115  cd ..
+ 1116  docker exec  -ti 0c952b0c803d mysql -u root -p
+ 1117  docker-compose down
+ 1118  docker-compose up 
+ 1119  ls
+ 1120  cd public/
+ 1121  ls
+ 1122  cat index.php 
+ 1123  cd ..
+ 1124  cd .docker/
+ 1125  cd phpmyadmin/
+ 1126  ls -l
+ 1127  cd sessions/
+ 1128  ls
+ 1129  ls -l
+ 1130  cd ..
+ 1131  ls -l
+ 1132  chown -r juan.juan *
+ 1133  chown -R juan.juan *
+ 1134  sudo chown -R juan.juan *
+ 1135  cd ..
+ 1136  docker-compose up -d 
+ 1137  docker ps
+ 1138  docker exec 4c2f01d127c0 bash
+ 1139  docker exec -ti 4c2f01d127c0 bash
+ 1140  ls -l
+ 1141  cat composer.json 
+ 1142  ls
+ 1143  cd public/
+ 1144  ls
+ 1145  cat index.php 
+ 1146  vim  index.php 
+ 1147  cd ..
+ 1148  ls
+ 1149  cd resources/
+ 1150  ls
+ 1151  cd ..
+ 1152  ls
+ 1153  cd app/
+ 1154  ls
+ 1155  cd ..
+ 1156  ls
+ 1157  cd ..
+ 1158  cd laravel-docker/
+ 1159  ls
+ 1160  cd public/
+ 1161  ls
+ 1162  cd ..
+ 1163  git status
+ 1164  git add .
+ 1165  git commit -m "Se comentan las maquinas de redis,mail y adminer"
+ 1166  git push
+ 1167  ping github.co
+ 1168  ping github.com
+ 1169  ping google.com
+ 1170  ping github.com
+ 1171  git push
+ 1172  cd ..
+ 1173  $ git clone https://github.com/jaygaha/laravel-11-frankenphp-docker.git
+ 1174  git clone https://github.com/jaygaha/laravel-11-frankenphp-docker.git
+ 1175  cd laravel-11-frankenphp-docker/
+ 1176  docker-compose up -d
+ 1177  cd ..
+ 1178  cd laravel-docker/
+ 1179  docker-compose down
+ 1180  cd ..
+ 1181  cd laravel-11-frankenphp-docker/
+ 1182  docker-compose up -d
+ 1183  docker-compose up 
+ 1184  vim docker-compose.yml 
+ 1185  cd
+ 1186  composer create-project --prefer-dist laravel/laravel my-laravel-app
+ 1187  sudo apt install composer
+ 1188  exit
+ 1189  git clone git@github.com:BUCEO/3bh-practicos.git
+ 1190  cd 3bh-practicos/
+ 1191  ls
+ 1192  touch p.txt
+ 1193  add p.txt
+ 1194  add .
+ 1195  git add .
+ 1196  git commit -m "Prueba de commmit "
+ 1197  git push
+ 1198  cd
+ 1199  cat .gitconfig 
+ 1200  cat .ssh/id_rsa
+ 1201  cat .ssh/id_rsa.pub 
+ 1202  exit
+ 1203  history |grep ssh
+ 1204  exit
+ 1205  ls -l
+ 1206  cd laravel-docker/
+ 1207  ls
+ 1208  git remote add origin git@github.com:UTU-2024/LaravelWEB.git
+ 1209  git status
+ 1210  git push
+ 1211  ls
+ 1212  git status
+ 1213  cd ..
+ 1214  mkdir ITI
+ 1215  md ITI
+ 1216  mkdir ITI
+ 1217  cd ITI
+ 1218  git clone git@github.com:UTU-2024/Laravel-Docker.git
+ 1219  systemctl stop mysql
+ 1220  systemctl stop apache2
+ 1221  docker-compose up -d
+ 1222  cd Laravel-Docker/
+ 1223  docker-compose up -d
+ 1224  docker ps 
+ 1225  docker exec -ti git@github.com:UTU-2024/Laravel-Docker.git bash
+ 1226  docker exec -ti 42677d26176a  bash
+ 1227  cd config/
+ 1228  ls
+ 1229  cat database.php 
+ 1230  docker exec -ti 42677d26176a  bash
+ 1231  cd ..
+ 1232  pwd
+ 1233  du -hs
+ 1234  sudo du -hs
+ 1235  docker exec -ti 42677d26176a  bash
+ 1236  docker compose exec php bash
+ 1237  cd
+ 1238  pwd
+ 1239  ip a
+ 1240  ping google.com
+ 1241  ipconfig
+ 1242  reoute -n
+ 1243  route -n
+ 1244  ping 172.20.112.1
+ 1245  clear
+ 1246  ssh 192.168.56.253
+ 1247  history 
+ 1248  hostname
+ 1249  history |greps ssh
+ 1250  history |grep  ssh
+ 1251  ssh 192.168.56.253
+ 1252  exit
+ 1253  ssh 192.168.6.253
+ 1254  ssh 192.168.6.253 -vv
+ 1255  ssh-copy-id  192.168.6.253 
+ 1256  ssh 192.168.6.253 -vv
+ 1257  cd ITI
+ 1258  cd Laravel-Docker/
+ 1259  git commit -m "se ejecuta composer"
+ 1260  git status
+ 1261  ls
+ 1262  vim docker-compose.yml 
+ 1263  cd config/
+ 1264  vim database.php 
+ 1265  cd ..
+ 1266  docker compose up -d
+ 1267  cd
+ 1268  exit
+ 1269  ls
+ 1270  tcpdump 
+ 1271  sudo tcpdump 
+ 1272  tcpdump 
+ 1273  clear
+ 1274  sudo tcpdump 
+ 1275  exit
+ 1276  ls
+ 1277  cd 3BG/
+ 1278  git clone git@github.com:BUCEO/3bg-practicos.git
+ 1279  cd 3bg-practicos/
+ 1280  ls
+ 1281  vim README.md 
+ 1282  cd
+ 1283  pwd
+ 1284  cd 3BG/
+ 1285  cd ~
+ 1286  cd 3BG/
+ 1287  cd 3bg-practicos/
+ 1288  cat README.md 
+ 1289  cd
+ 1290  history > Practico1-JuanPajares.txt
+ 1291  cat Practico1-JuanPajares.txt 
+ 1292  cd
+ 1293  cat .bash_history 
+ 1294  cd
+ 1295  clear
+ 1296  history |grep git 
+ 1297  vim hello.sh
+ 1298  cp hello.sh 3BG/3bg-practicos/
+ 1299  cd 3BG/
+ 1300  cd 3bg-practicos/
+ 1301  git add .
+ 1302  git status
+ 1303  git commit -m "Entga practico 1"
+ 1304  clear
+ 1305  git push
+ 1306  cd
+ 1307  history 
+ 1308  cat .bash_history 
+ 1309  uname -na
+ 1310  cat /etc/issue
+ 1311  sudo apt install vim-enchaced 
+ 1312  apt cache search vim |more
+ 1313  apt-cache search
+ 1314  sudo apt install vim-syntastic
+ 1315  ssh localhost
+ 1316  exit
+ 1317  netstat -nap |grep 80
+ 1318  ip a
+ 1319  clear
+ 1320  sudo su -
+ 1321  exit
+ 1322  who
+ 1323  ssh-keygen 
+ 1324  cat .ssh/id_rsa.pub 
+ 1325  ssh-copy-id localhost
+ 1326  tail -f /var/log/syslog
+ 1327  clear
+ 1328  mkidr 3BJ
+ 1329  mkdir 3BJ
+ 1330  cd 3BJ
+ 1331  pwd
+ 1332  git clone git@github.com:BUCEO/3bj-practicos.git
+ 1333  cd 3bj-practicos/
+ 1334  ls
+ 1335  vim README.md 
+ 1336  cat .bash_history 
+ 1337  clear
+ 1338  cat .bash_history 
+ 1339  history 
+ 1340  history > Practico1-JuanPajres.txt
