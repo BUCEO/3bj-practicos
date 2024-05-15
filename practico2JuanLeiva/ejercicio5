@@ -1,0 +1,2 @@
+comando=$1
+whatis "$comando"
