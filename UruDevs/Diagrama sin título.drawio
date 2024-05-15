@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net" modified="2024-05-15T01:18:06.533Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="XhJYZqrIdW-dqAMT7kd7" version="24.4.0" type="device">
+  <diagram name="Página-1" id="iXIMhk5hJ1ogj9K7Z5sh">
+    <mxGraphModel dx="1120" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SQnzNOWartculp4qSz-f-1" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SQnzNOWartculp4qSz-f-15" target="SQnzNOWartculp4qSz-f-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="260" as="sourcePoint" />
+            <mxPoint x="500" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Actor" id="SQnzNOWartculp4qSz-f-2">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+            <mxGeometry x="130" y="50" width="60" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="SQnzNOWartculp4qSz-f-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="240" y="35" width="740" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="160" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-5" value="User" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="155" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-6" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="80" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-7" value="Log in" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="105" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-8" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="180" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-9" value="Log out" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="SQnzNOWartculp4qSz-f-2" target="SQnzNOWartculp4qSz-f-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="160" as="sourcePoint" />
+            <mxPoint x="180" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="SQnzNOWartculp4qSz-f-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="110" as="sourcePoint" />
+            <mxPoint x="190" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-12" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="80" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-13" value="verificar datos" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="585" y="105" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="SQnzNOWartculp4qSz-f-6" target="SQnzNOWartculp4qSz-f-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="130" as="sourcePoint" />
+            <mxPoint x="110" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Actor" id="SQnzNOWartculp4qSz-f-15">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+            <mxGeometry x="130" y="330" width="60" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="SQnzNOWartculp4qSz-f-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="440" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-17" value="Admin" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="435" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-18" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="235" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="SQnzNOWartculp4qSz-f-12" target="SQnzNOWartculp4qSz-f-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-20" value="captcha" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="585" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-21" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="570" y="185" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-22" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="50" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-23" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="140" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-24" value="autorizado" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-25" value="denegado" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SQnzNOWartculp4qSz-f-12" target="SQnzNOWartculp4qSz-f-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="290" as="sourcePoint" />
+            <mxPoint x="670" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SQnzNOWartculp4qSz-f-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SQnzNOWartculp4qSz-f-12" target="SQnzNOWartculp4qSz-f-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="110" as="sourcePoint" />
+            <mxPoint x="770" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
