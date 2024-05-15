@@ -1,0 +1,189 @@
+    1  snap install spotify
+    2  $sudo apt update
+    3  sudo apt update
+    4  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+    5  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    6  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+    7  sudo apt update
+    8  apt-cache policy docker-ce
+    9  sudo apt install docker-ce
+   10  sudo systemctl status docker
+   11  sudo usermod -aG docker ${angel}
+   12  su - ${angel}
+   13  id -nG
+   14  sudo usermod -aG docker ${USER}
+   15  sudo usermod -aG docker ${angel}
+   16  su - ${USER}
+   17  id -nG
+   18  sudo usermod -aG docker username
+   19  sudo usermod -aG docker angel
+   20  docker
+   21  docker info
+   22  docker
+   23  docker run hello-world
+   24  sudo docker search ubuntu
+   25  docker search ubuntu
+   26  su - ${USER}
+   27  docker run hello-world
+   28  docker search ubuntu
+   29  docker images
+   30  clear
+   31  ssh-keygen -t rsa
+   32  ip config
+   33  ip-config
+   34  docker
+   35  docker run hello-world
+   36  sudo groupadd docker
+   37  sudo usermod -aG docker ${USER}
+   38  su -s ${USER}
+   39  sudo usermod -aG docker ${angel}
+   40  sudo usermod -aG docker ${USER}
+   41  su -s ${angel}
+   42  su -s ${USER}
+   43  clear
+   44  sudo usermod -aG docker ${USER}
+   45  newgrp docker
+   46  chmod 755 xampp-linux-*-installer.run
+   47  chmod 755 xampp-linux-*-/home/angel/Descargas/installer.run
+   48  sudo ./xampp-linux-*-installer.run
+   49  sudo apt install openssh-server: instalar ssh server
+   50  sudo apt install openssh-server
+   51  sudo systemctl status ssh
+   52  sudo ufw allow ssh
+   53  sudo service ssh restart
+   54  sudo systemctl status ssh
+   55  sudo apt install openssh-server: instalar ssh server
+   56  ssh-keygen
+   57  ls 
+   58  cd home
+   59  cd angel
+   60  ls angel
+   61  ls -al ~/.ssh
+   62  ssh-copy-id [Alumno]@192.168.9.118
+   63  ssh-copy-id Alumno@192.168.9.118
+   64  clear
+   65  uname  -na
+   66  ls
+   67  ssh localhost
+   68  git clone
+   69  ls -al ~/.ssh
+   70  ssh copy-id
+   71  clear
+   72  docker
+   73  docker docker-subcommand --help
+   74  docker info
+   75  docker run hello-world
+   76  ls
+   77  cd descargas
+   78  cd Descargas
+   79  sudo chmod 755 xampp-linux-x64-8.0.30-0-installer (1).run
+   80  sudo chmod 755 xampp-linux-x64-8.0.30-0-installer (1).run
+   81  clear 
+   82  sudo chmod 755 xampp-linux-x64-8.0.30-0-installer.run
+   83  sudo chmod 755 xampp-linux-x64-8.0.30-0-installer (1).run
+   84  sudo chmod 755 xampp-linux-x64-8.0.30-0-installer.run
+   85  sudo ./xampp-linux-x64-8.0.30-0-installer.run
+   86  sudo /opt/lampp/lampp start
+   87  cd Descargas
+   88  sudo ./xampp-linux-x64-8.0.30-0-installer.run
+   89  docker help
+   90  lsb_release -a
+   91  apt install apache
+   92  sudo apt install apache
+   93  sudo apt install apache2
+   94  pwd
+   95  sudo /opt/lampp/lampp start
+   96  sudo /opt/lampp/lampp stop
+   97  apt install mysql
+   98  sudo apt install mysql
+   99  sudo apt install Mysql
+  100  sudo apt install MySQL
+  101  sudo MySQL
+  102  apt search 
+  103  search php
+  104  apt search php
+  105  apt search Mysql
+  106  sudo apt install mysql-server-8.0
+  107  search apt 
+  108  apt search php
+  109  sudo apt install php8.0
+  110  sudo apt install php 8.0
+  111  sudo apt install php 8.0-cli
+  112  sudo apt install php libapache2-mod-php php-mysql
+  113  php info
+  114  sudo MySQL
+  115  sudo systemctl status ssh
+  116  clear
+  117  ls -al
+  118  ls -al ~/
+  119  ls
+  120  cd publico
+  121  cd P'ublico
+  122  sdasd
+  123  exit
+  124  cd..
+  125  cd.
+  126  chmod 777
+  127  chmod help
+  128  chmod --help
+  129  chmod c
+  130  service apache2 stop
+  131  sudo /opt/lampp/lampp start
+  132  sudo service apache2 stop
+  133  sudo apt-get purge apache2 apache2-utils apache2.2-bin apache2-common
+  134  sudo apt-get purge apache2 apache2-utils apache2-bin apache2.2-common
+  135  sudo /opt/lampp/lampp start
+  136  lsb_release -a
+  137  ls
+  138  cd descargas
+  139  cd Descargas
+  140  sudo dpkg -i mysql-workbench-community_8.0.36-1ubuntu22.04_amd64.deb
+  141  sudo apt-get install gnome-menus
+  142  sudo apt --fix-broken install
+  143  mysql-workbench
+  144  snap connect mysq-workbench-community:password-manager-service
+  145  sudo apt install snapd
+  146  sudo snap install mysql-workbench-community
+  147  snap connect mysq-workbench-community:password-manager-service
+  148  mysql-workbench-community 8.0.22 from Tonin Bolzan (tonybolzan) installed
+  149  clear
+  150  sudo mysql
+  151  mysql -u root -p
+  152  sudo mysql
+  153  SELECT user,authentication_string,plugin,host FROM mysql.user;
+  154  sudo mysql
+  155  mysql -u root -p
+  156  ls
+  157  cd Escritorio 
+  158  \mkdir fotos
+  159  sudo Lshw | less
+  160  sudo systemctl status ssh
+  161  apt install lynx
+  162  $ sudo apt install apache2
+  163  $ sudo ufw app list
+  164  $ sudo apt install apache2
+  165  sudo apachectl start
+  166  sudo apt update
+  167  $ sudo apt install apache2
+  168  sudo apt install apache2
+  169  sudo ufw app list
+  170  $ sudo ufw allow 'Apache'
+  171  $sudo ufw allow 'Apache'
+  172  sudo ufw allow 'Apache'
+  173  sudo ufw status
+  174  sudo systemctl status apache2
+  175  sudo /opt/lampp/lampp stop
+  176  sudo systemctl status apache2
+  177  hostname -I
+  178  sudo apt-get -o DPkg::Options::="--force-confmiss" --reinstall install apache2
+  179  sudo systemctl status apache2
+  180  history
+  181  git 
+  182  ls
+  183  Escritorio
+  184  cd Escritorio
+  185  ls
+  186  cd fotos
+  187  sudo apt install net-tools
+  188  history > texto.txt
+

@@ -1,0 +1,23 @@
+Para instalar el servidor SSH usamos los siguientes comandos:
+
+   49  sudo apt install openssh-server: instalar ssh server
+   50  sudo apt install openssh-server
+   51  sudo systemctl status ssh
+   52  sudo ufw allow ssh
+   53  sudo service ssh restart
+   54  sudo systemctl status ssh
+   55  sudo apt install openssh-server: instalar ssh server
+
+Para instalar el servidor Web usamos los siguientes comandos:
+
+  168  sudo apt install apache2
+  169  sudo ufw app list
+  170  $ sudo ufw allow 'Apache'
+  171  sudo ufw status
+  172  sudo systemctl status apache2
+  173  sudo apt-get -o DPkg::Options::="--force-confmiss" --reinstall install apache2
+  174  sudo systemctl status apache2
+
+Para instalar el paquete net-tools:
+  
+  187  sudo apt install net-tools
