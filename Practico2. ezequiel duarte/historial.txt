@@ -1,0 +1,149 @@
+    1  for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+    2  sudo apt-get update
+    3  sudo apt-get install ca-certificates curl
+    4  sudo install -m 0755 -d /etc/apt/keyrings
+    5  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+    6  sudo chmod a+r /etc/apt/keyrings/docker.asc
+    7  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+    8  sudo docker run hello-world
+    9  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+   10  # Add Docker's official GPG key:
+   11  sudo apt-get update
+   12  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+   13  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   14  y
+   15  yes
+   16  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   17  yes
+   18  c
+   19  yes
+   20  y
+   21  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   22  Y
+   23  y
+   24  no
+   25  nn
+   26  n
+   27  docker -v
+   28  deb [arch=amd64] https://download.docker.com/linux/ubuntu artful stable
+   29  $ sudo snap install docker
+   30  docker
+   31  apt install docker
+   32  sudo apt install docker
+   33  $docker -v
+   34  docker
+   35  $docker -V
+   36  $docker -d
+   37  sudo $docker -d
+   38  sudo $docker -v
+   39  -v
+   40  sudo docker run hello-world
+   41  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+   42  sudo apt-get update
+   43  sudo apt-get install
+   44  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg     lsb-release
+   45  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+   46  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-pluginsudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-pluginsudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-pluginsudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-pluginsudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-pluginsudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-pluginsudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+   47  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+   48  sudo docker run hello-world
+   49  docker 
+   50  docker --version
+   51  wsl
+   52  clear
+   53  docker
+   54  dock
+   55  docker run
+   56  doker run
+   57  docker
+   58  sudo apt install docker
+   59  docker
+   60  ls
+   61  s3s3dewdwedlw
+   62  e
+   63  +ercfñeqrpvckoprjmvkq n
+   64  ls
+   65  sudo apt install vim
+   66  vim
+   67  vim prectico.txt
+   68  sudo chmod 777 prectico.txt
+   69  ./ prectico.txt
+   70  ./prectico.txt
+   71  ./prectico.txt hola
+   72  vim prectico.txt
+   73  ./prectico.txt hola
+   74  ./prectico.txt /hola
+   75  ./prectico.txt C:
+   76  ./prectico.txt prectico.txt
+   77  vim prectico.txt
+   78  ./prectico.txt prectico.txt
+   79  vim prectico.txt
+   80  ./prectico.txt prectico.txt
+   81  vim prectico.txt
+   82  ./prectico.txt prectico.txt
+   83  vim prectico.txt
+   84  ./prectico.txt prectico.txt
+   85  vim prectico.txt
+   86  ./prectico.txt prectico.txt
+   87  vim prectico.txt
+   88  vim prectico2.txt
+   89  chmod 777 prectico2.txt
+   90  ./prectico2.txt prectico.txt
+   91  vim prectico2.txt
+   92  ./prectico2.txt prectico.txt
+   93  vim prectico2.txt
+   94  ./prectico2.txt prectico.txt
+   95  vim prectico2.txt
+   96* 
+   97  vim prectico3.txt
+   98  ./prectico3.txt prectico.txt
+   99  chmod 777 prectico3.txt
+  100  ./prectico3.txt prectico.txt
+  101  vim prectico3.txt
+  102  ./prectico3.txt prectico.txt
+  103  vim prectico3.txt
+  104  ./prectico3.txt prectico.txt
+  105  vim prectico3.txt
+  106  ./prectico3.txt prectico.txt
+  107  ./prectico3.txt 
+  108  vim prectico4.txt
+  109  chmod 777 prectico4.txt
+  110  ./prectico4.txt 
+  111  vim prectico4.txt
+  112  ./prectico4.txt 
+  113  vim prectico4.txt
+  114  ./prectico4.txt 
+  115  ./prectico4.txt tty1
+  116  vim prectico4.txt
+  117  vim prectico4.txt tty1
+  118  ./prectico4.txt tty1
+  119  vim prectico4.txt tty1
+  120  ./prectico4.txt tty1
+  121  vim prectico4.txt
+  122  ./prectico4.txt tty1
+  123  vim prectico4.txt
+  124  ./prectico4.txt tty1
+  125  vim prectico4.txt
+  126  ./prectico4.txt tty1
+  127  vim prectico4.txt
+  128  ./prectico4.txt tty1
+  129  vim prectico4.txt
+  130  ./prectico4.txt tty1
+  131  vim prectico.txt
+  132  vim prectico5.txt
+  133  chmod 777 prectico5.txt
+  134  ./prectico5.txt
+  135  ./prectico5.txt echo
+  136  ./prectico5.txt apt
+  137  ./prectico5.txt bash
+  138  ./prectico5.txt help
+  139  ./prectico5.txt .
+  140  help
+  141  ./prectico5.txt echo
+  142  vim prectico5.txt
+  143  ./prectico5.txt echo
+  144  vim prectico5.txt
+  145  ./prectico5.txt echo
+  146  ./prectico5.txt .
+  147  ./prectico5.txt apt
+  148  history 
+  149  history > historial.txt
