@@ -1,1 +1,5 @@
+-consigna-
+Escribir un script que lo salude con su nombre completo cada vez que ingrese en la consola tty1 como usuario que creado con su nombre
+
+-codigo-
 echo "Bienvenido $USER  a tty1."
