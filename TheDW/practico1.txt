@@ -1,0 +1,19 @@
+sudo apt update
+-instalacion y verificacion de ssh-
+sudo apt install openssh-server
+sudo systemctl status ssh
+sudo systemctl restart ssh
+
+-instalacion y verificacion de apache2-
+sudo apt install apache2
+sudo systemctl status apache2
+sudo systemctl restart apache2
+
+-instalacion de net tools-
+sudo apt install net-tools
+
+-generacion y clonar clave-
+ssh-keygen -t rsa -b 4096
+hostname -i
+ssh-copy-id juanleiva@127.0.1.1
+ssh juanleiva@127.0.1.1
