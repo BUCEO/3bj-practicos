@@ -1,3 +1,6 @@
+-consiga-
+Escribir un script que al pasarle por argumento un parámetro, determine si es archivo, directorio, o si el parámetro no existe.
+
 -creacion del archivo-
 nano ejercicio1
 
