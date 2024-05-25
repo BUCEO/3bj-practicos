@@ -1,0 +1,14 @@
+                                      comandos usados 
+
+[[[[[[[[[ git clone 'el repositorio copiado ']]]]]]]]]
+este comando clona el repositorio en la localizacion actual. 
+
+[[[[[[[[ git add . ]]]]]]]]
+este comando agrega todos los cambios realizados a la rama.
+
+[[[[[[[[ git comit -m 'el comentario para el comit' ]]]]]]]]]
+este comando hace el comit de la rama y agrega el comentario.
+
+[[[[[[[[ git push -u 'nombre repo' 'nombre rama' ]]]]]]]]
+realiza el push hacia el repositorio remoto, guardando los cambios en github,
+
