@@ -1,0 +1,358 @@
+    1  snap install spotify
+    2  $sudo apt update
+    3  sudo apt update
+    4  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+    5  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    6  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+    7  sudo apt update
+    8  apt-cache policy docker-ce
+    9  sudo apt install docker-ce
+   10  sudo systemctl status docker
+   11  sudo usermod -aG docker ${angel}
+   12  su - ${angel}
+   13  id -nG
+   14  sudo usermod -aG docker ${USER}
+   15  sudo usermod -aG docker ${angel}
+   16  su - ${USER}
+   17  id -nG
+   18  sudo usermod -aG docker username
+   19  sudo usermod -aG docker angel
+   20  docker
+   21  docker info
+   22  docker
+   23  docker run hello-world
+   24  sudo docker search ubuntu
+   25  docker search ubuntu
+   26  su - ${USER}
+   27  docker run hello-world
+   28  docker search ubuntu
+   29  docker images
+   30  clear
+   31  ssh-keygen -t rsa
+   32  ip config
+   33  ip-config
+   34  docker
+   35  docker run hello-world
+   36  sudo groupadd docker
+   37  sudo usermod -aG docker ${USER}
+   38  su -s ${USER}
+   39  sudo usermod -aG docker ${angel}
+   40  sudo usermod -aG docker ${USER}
+   41  su -s ${angel}
+   42  su -s ${USER}
+   43  clear
+   44  sudo usermod -aG docker ${USER}
+   45  newgrp docker
+   46  chmod 755 xampp-linux-*-installer.run
+   47  chmod 755 xampp-linux-*-/home/angel/Descargas/installer.run
+   48  sudo ./xampp-linux-*-installer.run
+   49  sudo apt install openssh-server: instalar ssh server
+   50  sudo apt install openssh-server
+   51  sudo systemctl status ssh
+   52  sudo ufw allow ssh
+   53  sudo service ssh restart
+   54  sudo systemctl status ssh
+   55  sudo apt install openssh-server: instalar ssh server
+   56  ssh-keygen
+   57  ls 
+   58  cd home
+   59  cd angel
+   60  ls angel
+   61  ls -al ~/.ssh
+   62  ssh-copy-id [Alumno]@192.168.9.118
+   63  ssh-copy-id Alumno@192.168.9.118
+   64  clear
+   65  uname  -na
+   66  ls
+   67  ssh localhost
+   68  git clone
+   69  ls -al ~/.ssh
+   70  ssh copy-id
+   71  clear
+   72  docker
+   73  docker docker-subcommand --help
+   74  docker info
+   75  docker run hello-world
+   76  ls
+   77  cd descargas
+   78  cd Descargas
+   79  sudo chmod 755 xampp-linux-x64-8.0.30-0-installer (1).run
+   80  sudo chmod 755 xampp-linux-x64-8.0.30-0-installer (1).run
+   81  clear 
+   82  sudo chmod 755 xampp-linux-x64-8.0.30-0-installer.run
+   83  sudo chmod 755 xampp-linux-x64-8.0.30-0-installer (1).run
+   84  sudo chmod 755 xampp-linux-x64-8.0.30-0-installer.run
+   85  sudo ./xampp-linux-x64-8.0.30-0-installer.run
+   86  sudo /opt/lampp/lampp start
+   87  cd Descargas
+   88  sudo ./xampp-linux-x64-8.0.30-0-installer.run
+   89  docker help
+   90  lsb_release -a
+   91  apt install apache
+   92  sudo apt install apache
+   93  sudo apt install apache2
+   94  pwd
+   95  sudo /opt/lampp/lampp start
+   96  sudo /opt/lampp/lampp stop
+   97  apt install mysql
+   98  sudo apt install mysql
+   99  sudo apt install Mysql
+  100  sudo apt install MySQL
+  101  sudo MySQL
+  102  apt search 
+  103  search php
+  104  apt search php
+  105  apt search Mysql
+  106  sudo apt install mysql-server-8.0
+  107  search apt 
+  108  apt search php
+  109  sudo apt install php8.0
+  110  sudo apt install php 8.0
+  111  sudo apt install php 8.0-cli
+  112  sudo apt install php libapache2-mod-php php-mysql
+  113  php info
+  114  sudo MySQL
+  115  sudo systemctl status ssh
+  116  clear
+  117  ls -al
+  118  ls -al ~/
+  119  ls
+  120  cd publico
+  121  cd P'ublico
+  122  sdasd
+  123  exit
+  124  cd..
+  125  cd.
+  126  chmod 777
+  127  chmod help
+  128  chmod --help
+  129  chmod c
+  130  service apache2 stop
+  131  sudo /opt/lampp/lampp start
+  132  sudo service apache2 stop
+  133  sudo apt-get purge apache2 apache2-utils apache2.2-bin apache2-common
+  134  sudo apt-get purge apache2 apache2-utils apache2-bin apache2.2-common
+  135  sudo /opt/lampp/lampp start
+  136  lsb_release -a
+  137  ls
+  138  cd descargas
+  139  cd Descargas
+  140  sudo dpkg -i mysql-workbench-community_8.0.36-1ubuntu22.04_amd64.deb
+  141  sudo apt-get install gnome-menus
+  142  sudo apt --fix-broken install
+  143  mysql-workbench
+  144  snap connect mysq-workbench-community:password-manager-service
+  145  sudo apt install snapd
+  146  sudo snap install mysql-workbench-community
+  147  snap connect mysq-workbench-community:password-manager-service
+  148  mysql-workbench-community 8.0.22 from Tonin Bolzan (tonybolzan) installed
+  149  clear
+  150  sudo mysql
+  151  mysql -u root -p
+  152  sudo mysql
+  153  SELECT user,authentication_string,plugin,host FROM mysql.user;
+  154  sudo mysql
+  155  mysql -u root -p
+  156  ls
+  157  cd Escritorio 
+  158  \mkdir fotos
+  159  sudo Lshw | less
+  160  sudo systemctl status ssh
+  161  apt install lynx
+  162  $ sudo apt install apache2
+  163  $ sudo ufw app list
+  164  $ sudo apt install apache2
+  165  sudo apachectl start
+  166  sudo apt update
+  167  $ sudo apt install apache2
+  168  sudo apt install apache2
+  169  sudo ufw app list
+  170  $ sudo ufw allow 'Apache'
+  171  $sudo ufw allow 'Apache'
+  172  sudo ufw allow 'Apache'
+  173  sudo ufw status
+  174  sudo systemctl status apache2
+  175  sudo /opt/lampp/lampp stop
+  176  sudo systemctl status apache2
+  177  hostname -I
+  178  sudo apt-get -o DPkg::Options::="--force-confmiss" --reinstall install apache2
+  179  sudo systemctl status apache2
+  180  history
+  181  git 
+  182  ls
+  183  Escritorio
+  184  cd Escritorio
+  185  ls
+  186  cd fotos
+  187  history > texto.txt
+  188  ls
+  189  git init
+  190  git add
+  191  git add texto.txt
+  192  git commit -m "inserta Mensaje aquí"
+  193  git remote add origin
+  194  git remote add origin https://github.com/angel012005/SO.git
+  195  git remote -v
+  196  git push origin master
+  197  git push origin main
+  198  clear
+  199  history
+  200  LSB -a
+  201  apache2 -v
+  202  php -v
+  203  show openssh_version
+  204  clear
+  205  sudo apt install net-tools
+  206  history
+  207  cd Escritorio
+  208  mkdir Bash
+  209  cd Bash
+  210  bash script1.sh
+  211  vim script1.sh
+  212  sudo apt install vim
+  213  vim script1.sh
+  214  ls
+  215  cd Escritorio
+  216  cd Bash
+  217  ls
+  218  vim tipo.sh
+  219  ls
+  220  vim tipo.sh
+  221  ls
+  222  cat texto.txt
+  223  nano texto .txt
+  224  ls
+  225  nano texto.txt
+  226  ls
+  227  vim tipo.sh
+  228  ls
+  229  vim tipos.sh
+  230  ls
+  231  chmod 777 tipos.sh
+  232  ./tipos.sh texto.txt
+  233  mkdir prueba
+  234  ./tipos.sh prueba
+  235  vim tamanio.sh
+  236  chmod 777 tipos.sh
+  237  chmod 777 tamanio.sh
+  238  ./tamanio.sh texto.txt
+  239  ./tamanio.sh 
+  240  vim tamanio.sh
+  241  ./tamanio.sh texto.txt
+  242  ./tamanio.sh /home/angel/Descargas/Practico_2_Bash_Script_Basico.docx
+  243  vim tamanio.sh
+  244  ./tamanio.sh /home/angel/Descargas/Practico_2_Bash_Script_Basico.docx
+  245  vim saludo.sh
+  246  chmod 777 saludo.sh
+  247  ./ saludo.sh
+  248  ./saludo.sh
+  249  tty
+  250  ./saludo.sh
+  251  vim comandos.sh
+  252  chmod 777 comandos.sh
+  253  ./comandos.sh ls
+  254  ./comandos.sh pepe
+  255  vim comandos.sh
+  256  ./comandos.sh pepe
+  257  ls
+  258  ./tipos.sh g
+  259  ls
+  260  vim opciones.sh
+  261  chmod 777 opciones.sh
+  262  ./opciones.sh
+  263  ./opciones.sh tipos
+  264  ./opciones.sh tipos.sh
+  265  ./comandos.sh pepe
+  266  ./comandos.sh ls
+  267  cd ..
+  268  sudo mysql
+  269  chmod 777 html
+  270  cd..
+  271  cd ..
+  272  chmod 777 html
+  273  ls
+  274  cd ..
+  275  chmod 777 var
+  276  git clone https://github.com/angel012005/ProyectoDW.git
+  277  history
+  278  sudo /opt/lampp/lampp start
+  279  service apache2 stop o por ejemplo /etc/init
+  280  sudo /opt/lampp/lampp start
+  281  git
+  282  git status
+  283  git clone git@github.com:BUCEO/3bj-practicos.git
+  284  git clone https://github.com/BUCEO/3bj-practicos.git
+  285  ls
+  286  cd 3bj-practicos
+  287  ls
+  288  cd ..
+  289  ls
+  290  cd Escritorio
+  291  ls
+  292  cp -r Practicos_Angel_Ramirez ../3bj-practicos
+  293  cd..
+  294  ls
+  295  cd ..
+  296  ls
+  297  cd 3bj-practicos
+  298  ls
+  299  git status
+  300  git add .
+  301  git status
+  302  git config --global user.name "Angel"
+  303  git config --global user.email "angelramirez0112@gmail.com"
+  304  git status
+  305  ls
+  306  cd Practicos_Angel_Ramirez
+  307  ls
+  308  mkdir Practico3_git
+  309  ls
+  310  cd ..
+  311  git status
+  312  git add .
+  313  git status
+  314  git restore .
+  315  git status
+  316  ls
+  317  git add .
+  318  git status
+  319  comit -m | "Se aniado el directorio Angel Ramirez y practico2"
+  320  git comit -m | "Se aniado el directorio Angel Ramirez y practico2"
+  321  git commit -m | "Se aniado el directorio Angel Ramirez y practico2"
+  322  git commit -m "Se aniado el directorio Angel Ramirez y practico2"
+  323  git push -u origin main
+  324  git config --global user.name "angel012005"
+  325  git config --global user.email "angelramirez0112@gmail.com"
+  326  git config -l
+  327  git push -u origin main
+  328  ls
+  329  cd 3bj-practicos
+  330  ls
+  331  git status
+  332  git -l
+  333  clear
+  334  ls
+  335  cd ..
+  336  clear
+  337  ssh-keygen -t rsa
+  338  ls -al ~/.ssh
+  339  ssh-keygen -t ed25519 -C "angelramirez0112@gmail.com"
+  340  eval "$(ssh-agent -s)"
+  341  ssh-add ~/.ssh/id_ed25519
+  342  cat ~/.ssh/id_ed25519.pub
+  343  ssh-keygen
+  344  clear
+  345  cd Escritorio
+  346  git clone git@github.com:BUCEO/3bj-practicos.git
+  347  ls
+  348  git status
+  349  ls
+  350  cd 3bj-practicos
+  351  ls
+  352  cd Practicos_Angel_Ramirez
+  353  ls
+  354  cd ..
+  355  cd 3bj-practicos
+  356  cd Practicos_Angel_Ramirez
+  357  cd Practico3_git
+  358  history > history.txt
