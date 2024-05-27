@@ -355,4 +355,8 @@
   355  cd 3bj-practicos
   356  cd Practicos_Angel_Ramirez
   357  cd Practico3_git
-  358  history > history.txt
+  358  git add .
+  359  git status
+  360  git commit -m  "Se creo el directorio Practicos Angel Ramirez"
+  361  git push -u origin main
+  362  history > history.txt
