@@ -1,0 +1,80 @@
+1-
+
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+    echo "Uso: $0 <ruta>"
+    exit 1
+fi
+
+if [ -e "$1" ]; then
+    if [ -f "$1" ]; then
+        echo "$1 es un archivo."
+    elif [ -d "$1" ]; then
+        echo "$1 es un directorio."
+    else
+        echo "$1 existe, pero no es ni un archivo ni un directorio."
+    fi
+else
+    echo "$1 no existe."
+fi
+
+2-
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+    echo "Uso: $0 <ruta>"
+    exit 1
+fi
+
+size=$(du -sm "$1" | cut -f1)
+
+echo "El tamaño de $1 es: $size MB"
+
+3-
+#!/bin/bash
+
+if [ $# -eq 0 ]; then
+    echo "Uso: $0 <archivo/directorio>"
+    exit 1
+fi
+
+4-
+
+if [ $(tty) = "/dev/tty1" ]; then
+    echo "Hola, [Tu Nombre Completo]"
+fi
+
+5-
+
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+    echo "Uso: $0 <comando>"
+    exit 1
+fi
+
+man "$1" || info "$1" || help "$1" || echo "No se encontró información para $1."
+
+6-
+
+#!/bin/bash
+
+# Definir el directorio de trabajo
+directorio_trabajo="/home/miusuario"
+
+while true; do
+    # Obtener la hora actual en formato HH-MM
+    hora_actual=$(date +"%H-%M")
+    
+    # Nombre del archivo de backup
+    nombre_backup="backup-$hora_actual.tar.gz"
+    
+    # Crear el archivo de backup comprimido en formato TAR-GZIP
+    tar -czf "$nombre_backup" "$directorio_trabajo"
+    
+    echo "Backup generado: $nombre_backup"
+    
+    # Esperar 5 minutos antes de generar el próximo backup
+    sleep 300
+done
