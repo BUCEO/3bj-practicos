@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ -f "$par" ]; then
+  echo "$par es un archivo"
+elif [ -d "$par" ]; then
+  echo "$par es un directorio"
+else
+  echo "$par no existe"
+fi
