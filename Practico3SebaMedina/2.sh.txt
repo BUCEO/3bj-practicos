@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ -f "$par" ]; then
+  size=$(du -m "$par" | cut -f1)
+  echo "El tamaño de $par es de $tamaño MB"
+elif [ -d "$par" ]; then
+  tamaño=$(du -sm "$par" | cut -f1)
+  echo "El tamaño del directorio $1 es de $tamaño MB"
+else
+  echo "$par no es un archivo ni un directorio"
+fi

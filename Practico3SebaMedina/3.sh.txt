@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]; then
+  echo "No se han proporcionado argumentos."
+  echo "Las posibles opciones de ejecución son:"
+  echo "-h: Mostrar la ayuda del script."
+  echo "-v: Ejecutar en modo verboso."
+else
+  # Resto del código del script
+fi

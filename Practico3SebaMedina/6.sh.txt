@@ -1,0 +1,8 @@
+#!/bin/bash
+
+while true; do
+  time=$(date +"%Y%m%d%H%M%S")
+  filename="backup-$time.tar.gz"
+  tar -czf "$filename" /home/myusuario
+  sleep 300
+done
