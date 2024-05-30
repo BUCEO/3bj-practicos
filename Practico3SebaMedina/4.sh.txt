@@ -1,0 +1,3 @@
+if [ "$(tty)" = "/dev/tty1" ] && [ "$USER" = "tu_nombre_de_usuario" ]; then
+  echo "Hola, tu_nombre_completo"
+fi
