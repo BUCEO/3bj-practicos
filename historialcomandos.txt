@@ -1,0 +1,1000 @@
+ 1098  docker-compose down
+ 1099  vim docker-compose.yml 
+ 1100  docker-compose up -d
+ 1101  mysql -p -u root
+ 1102  mysql -p -u root -h db
+ 1103  docker ps
+ 1104  mysql -p -u root -h laravel-docker_db
+ 1105  mysql -p -u root -h laravel-docker_db1
+ 1106  mysql -p -u root -h laravel-docker_db_1
+ 1107  docker exec  -ti 0c952b0c803d mysql -u root -proto1234
+ 1108  docker exec  -ti 0c952b0c803d mysql -u root 
+ 1109  docker exec  -ti 0c952b0c803d mysql -u root -p
+ 1110  ls
+ 1111  cd config/
+ 1112  ls
+ 1113  cat auth.php 
+ 1114  cat database.php 
+ 1115  cd ..
+ 1116  docker exec  -ti 0c952b0c803d mysql -u root -p
+ 1117  docker-compose down
+ 1118  docker-compose up 
+ 1119  ls
+ 1120  cd public/
+ 1121  ls
+ 1122  cat index.php 
+ 1123  cd ..
+ 1124  cd .docker/
+ 1125  cd phpmyadmin/
+ 1126  ls -l
+ 1127  cd sessions/
+ 1128  ls
+ 1129  ls -l
+ 1130  cd ..
+ 1131  ls -l
+ 1132  chown -r juan.juan *
+ 1133  chown -R juan.juan *
+ 1134  sudo chown -R juan.juan *
+ 1135  cd ..
+ 1136  docker-compose up -d 
+ 1137  docker ps
+ 1138  docker exec 4c2f01d127c0 bash
+ 1139  docker exec -ti 4c2f01d127c0 bash
+ 1140  ls -l
+ 1141  cat composer.json 
+ 1142  ls
+ 1143  cd public/
+ 1144  ls
+ 1145  cat index.php 
+ 1146  vim  index.php 
+ 1147  cd ..
+ 1148  ls
+ 1149  cd resources/
+ 1150  ls
+ 1151  cd ..
+ 1152  ls
+ 1153  cd app/
+ 1154  ls
+ 1155  cd ..
+ 1156  ls
+ 1157  cd ..
+ 1158  cd laravel-docker/
+ 1159  ls
+ 1160  cd public/
+ 1161  ls
+ 1162  cd ..
+ 1163  git status
+ 1164  git add .
+ 1165  git commit -m "Se comentan las maquinas de redis,mail y adminer"
+ 1166  git push
+ 1167  ping github.co
+ 1168  ping github.com
+ 1169  ping google.com
+ 1170  ping github.com
+ 1171  git push
+ 1172  cd ..
+ 1173  $ git clone https://github.com/jaygaha/laravel-11-frankenphp-docker.git
+ 1174  git clone https://github.com/jaygaha/laravel-11-frankenphp-docker.git
+ 1175  cd laravel-11-frankenphp-docker/
+ 1176  docker-compose up -d
+ 1177  cd ..
+ 1178  cd laravel-docker/
+ 1179  docker-compose down
+ 1180  cd ..
+ 1181  cd laravel-11-frankenphp-docker/
+ 1182  docker-compose up -d
+ 1183  docker-compose up 
+ 1184  vim docker-compose.yml 
+ 1185  cd
+ 1186  composer create-project --prefer-dist laravel/laravel my-laravel-app
+ 1187  sudo apt install composer
+ 1188  exit
+ 1189  git clone git@github.com:BUCEO/3bh-practicos.git
+ 1190  cd 3bh-practicos/
+ 1191  ls
+ 1192  touch p.txt
+ 1193  add p.txt
+ 1194  add .
+ 1195  git add .
+ 1196  git commit -m "Prueba de commmit "
+ 1197  git push
+ 1198  cd
+ 1199  cat .gitconfig 
+ 1200  cat .ssh/id_rsa
+ 1201  cat .ssh/id_rsa.pub 
+ 1202  exit
+ 1203  history |grep ssh
+ 1204  exit
+ 1205  ls -l
+ 1206  cd laravel-docker/
+ 1207  ls
+ 1208  git remote add origin git@github.com:UTU-2024/LaravelWEB.git
+ 1209  git status
+ 1210  git push
+ 1211  ls
+ 1212  git status
+ 1213  cd ..
+ 1214  mkdir ITI
+ 1215  md ITI
+ 1216  mkdir ITI
+ 1217  cd ITI
+ 1218  git clone git@github.com:UTU-2024/Laravel-Docker.git
+ 1219  systemctl stop mysql
+ 1220  systemctl stop apache2
+ 1221  docker-compose up -d
+ 1222  cd Laravel-Docker/
+ 1223  docker-compose up -d
+ 1224  docker ps 
+ 1225  docker exec -ti git@github.com:UTU-2024/Laravel-Docker.git bash
+ 1226  docker exec -ti 42677d26176a  bash
+ 1227  cd config/
+ 1228  ls
+ 1229  cat database.php 
+ 1230  docker exec -ti 42677d26176a  bash
+ 1231  cd ..
+ 1232  pwd
+ 1233  du -hs
+ 1234  sudo du -hs
+ 1235  docker exec -ti 42677d26176a  bash
+ 1236  docker compose exec php bash
+ 1237  cd
+ 1238  pwd
+ 1239  ip a
+ 1240  ping google.com
+ 1241  ipconfig
+ 1242  reoute -n
+ 1243  route -n
+ 1244  ping 172.20.112.1
+ 1245  clear
+ 1246  ssh 192.168.56.253
+ 1247  history 
+ 1248  hostname
+ 1249  history |greps ssh
+ 1250  history |grep  ssh
+ 1251  ssh 192.168.56.253
+ 1252  exit
+ 1253  ssh 192.168.6.253
+ 1254  ssh 192.168.6.253 -vv
+ 1255  ssh-copy-id  192.168.6.253 
+ 1256  ssh 192.168.6.253 -vv
+ 1257  cd ITI
+ 1258  cd Laravel-Docker/
+ 1259  git commit -m "se ejecuta composer"
+ 1260  git status
+ 1261  ls
+ 1262  vim docker-compose.yml 
+ 1263  cd config/
+ 1264  vim database.php 
+ 1265  cd ..
+ 1266  docker compose up -d
+ 1267  cd
+ 1268  exit
+ 1269  ls
+ 1270  tcpdump 
+ 1271  sudo tcpdump 
+ 1272  tcpdump 
+ 1273  clear
+ 1274  sudo tcpdump 
+ 1275  exit
+ 1276  ls
+ 1277  cd 3BG/
+ 1278  git clone git@github.com:BUCEO/3bg-practicos.git
+ 1279  cd 3bg-practicos/
+ 1280  ls
+ 1281  vim README.md 
+ 1282  cd
+ 1283  pwd
+ 1284  cd 3BG/
+ 1285  cd ~
+ 1286  cd 3BG/
+ 1287  cd 3bg-practicos/
+ 1288  cat README.md 
+ 1289  cd
+ 1290  history > Practico1-JuanPajares.txt
+ 1291  cat Practico1-JuanPajares.txt 
+ 1292  cd
+ 1293  cat .bash_history 
+ 1294  cd
+ 1295  clear
+ 1296  history |grep git 
+ 1297  vim hello.sh
+ 1298  cp hello.sh 3BG/3bg-practicos/
+ 1299  cd 3BG/
+ 1300  cd 3bg-practicos/
+ 1301  git add .
+ 1302  git status
+ 1303  git commit -m "Entga practico 1"
+ 1304  clear
+ 1305  git push
+ 1306  cd
+ 1307  history 
+ 1308  cat .bash_history 
+ 1309  uname -na
+ 1310  cat /etc/issue
+ 1311  sudo apt install vim-enchaced 
+ 1312  apt cache search vim |more
+ 1313  apt-cache search
+ 1314  sudo apt install vim-syntastic
+ 1315  ssh localhost
+ 1316  exit
+ 1317  netstat -nap |grep 80
+ 1318  ip a
+ 1319  clear
+ 1320  sudo su -
+ 1321  exit
+ 1322  who
+ 1323  ssh-keygen 
+ 1324  cat .ssh/id_rsa.pub 
+ 1325  ssh-copy-id localhost
+ 1326  tail -f /var/log/syslog
+ 1327  clear
+ 1328  mkidr 3BJ
+ 1329  mkdir 3BJ
+ 1330  cd 3BJ
+ 1331  pwd
+ 1332  git clone git@github.com:BUCEO/3bj-practicos.git
+ 1333  cd 3bj-practicos/
+ 1334  ls
+ 1335  vim README.md 
+ 1336  cat .bash_history 
+ 1337  clear
+ 1338  cat .bash_history 
+ 1339  history 
+ 1340  history > Practico1-JuanPajres.txt
+ 1341  cat Practico1-JuanPajres.txt 
+ 1342  git add Practico1-JuanPajres.txt 
+ 1343  git status
+ 1344  git commit  -m "Mi primer practico"
+ 1345  git push
+ 1346  clear
+ 1347  vim hello.sh
+ 1348  cat /etc/issue
+ 1349  uname -na
+ 1350  git status
+ 1351  :q
+ 1352  :q: clear
+ 1353  clear
+ 1354  git commit  -m "Mi primer practico"
+ 1355  git add .
+ 1356  git commit  -m "Mi primer practico"
+ 1357  git push
+ 1358  git status
+ 1359  git pull 
+ 1360  cd ..
+ 1361  cd 3bj-practicos/
+ 1362  git chekout
+ 1363  git chekout
+ 1364  git chekoutclear
+ 1365  clear
+ 1366  git checkout
+ 1367  git add .
+ 1368  git status
+ 1369  git pull
+ 1370  git config pull.rebase true
+ 1371  git pull
+ 1372  history 
+ 1373  clear
+ 1374  apt update 
+ 1375  sudo apt update 
+ 1376  clear
+ 1377  cd ..
+ 1378  cd 3BG/
+ 1379  ls -l
+ 1380  git status
+ 1381  git pull 
+ 1382  git status
+ 1383  ls -l
+ 1384  cd 3bg-practicos/
+ 1385  git pull 
+ 1386  mkdir SantiagoFrancia
+ 1387  cd SantiagoFrancia/
+ 1388  ls
+ 1389  cd ..
+ 1390  git status 
+ 1391  git add SantiagoFrancia/
+ 1392  git status 
+ 1393  cd SantiagoFrancia/
+ 1394  touch README.md
+ 1395  cd ..
+ 1396  git add .
+ 1397  git commit -m "Practico 1 Santiago francia"
+ 1398  git push 
+ 1399  cd ..
+ 1400  cd
+ 1401  clear
+ 1402  cd 3BG/
+ 1403  ls
+ 1404  cd
+ 1405  cd .ssh/
+ 1406  ls -l
+ 1407  cat id_rsa.pub 
+ 1408  cd
+ 1409  cat /etc/issue
+ 1410  man ls
+ 1411  exit
+ 1412  who
+ 1413  cd
+ 1414  apt instal openssh-server
+ 1415  apt install openssh-server
+ 1416  sudo apt install openssh-server
+ 1417  clear
+ 1418  cls
+ 1419  apt install nginx
+ 1420  sudo apt install nginx
+ 1421  cldear
+ 1422  ls
+ 1423  cd /var/www/html/
+ 1424  ls
+ 1425  vim index.html 
+ 1426  cd
+ 1427  dpkg -l |grep apache
+ 1428  dpkg -l |grep php
+ 1429  dpkg -l |grep mysql 
+ 1430  lynx localhost
+ 1431  sudo apt install lynx
+ 1432  lynx localhost
+ 1433  wget localhost
+ 1434  curl locahost
+ 1435  curl http://locahost
+ 1436  curl http://locahost/index.html
+ 1437  curl http://localhost/index.html
+ 1438  q
+ 1439  :q
+ 1440  clear
+ 1441  netstat -nap |grep 80
+ 1442  clear
+ 1443  systemctl stop apache2
+ 1444  netstat -nap |grep 80
+ 1445  clearclear
+ 1446  cls
+ 1447  clear
+ 1448  systemctl stop apache2
+ 1449  netstat -nap |grep 80
+ 1450  systemctl stop docker
+ 1451  netstat -nap |grep 80
+ 1452  pa -aux |grep apache
+ 1453  ps -aux |grep apache
+ 1454  ps -aux |grep nginx
+ 1455  ps -aux |grep apacheclear
+ 1456  clear
+ 1457  systemctl stop nginx
+ 1458  netstat -nap |grep 80
+ 1459  tail -f /var/log/apache2/access.log
+ 1460  clear
+ 1461  sudo systemctl start apache2
+ 1462  tail -f /var/log/apache2/access.log
+ 1463  ssh localhost
+ 1464  exit
+ 1465  clear
+ 1466  ssh-keygen
+ 1467  cat .ssh/id_rsa.pub 
+ 1468  ssh-copy-id  localhost 
+ 1469  cealr
+ 1470  clear
+ 1471  ssh localhost 
+ 1472  exit
+ 1473  ls -
+ 1474  cd ..
+ 1475  cd
+ 1476  pwd
+ 1477  ls
+ 1478  mkdir ITS
+ 1479  cd 
+ 1480  cd ITS
+ 1481  ls
+ 1482  git clone git@github.com:UTU-ITS/Laravel-Docker.git
+ 1483  cd Laravel-Docker/
+ 1484  sudo docker-compose -d build 
+ 1485  ala24
+ 1486  sudo docker-compose -d build 
+ 1487  sudo docker-compose -d --build 
+ 1488  docker-compose -d --build
+ 1489  clear
+ 1490  docker-compose up -d  --build
+ 1491  sudo docker-compose up -d  --build
+ 1492  ps -aux |grep 3306
+ 1493  ps -aux |grep 80
+ 1494  docker-compose list
+ 1495  docker
+ 1496  docker ps
+ 1497  sudo docker ps
+ 1498  exit
+ 1499  cd UTU
+ 1500  cd ITS
+ 1501  cd Laravel-Docker/
+ 1502  docker-compose up -d --build
+ 1503  docker ps
+ 1504  ps -aux |grep apache
+ 1505  ps -aux |grep mysql 
+ 1506  sudo systemctl stop mysql
+ 1507  docker-compose up -d --build
+ 1508  ps -aux |grep apache
+ 1509  ps -aux |grep nginx
+ 1510  sudo systemctl stop nginx
+ 1511  docker-compose up -d --build
+ 1512  docker-compose list
+ 1513  docker-compose images
+ 1514  ls -l
+ 1515  docker ps
+ 1516  docker-compose up -d --build
+ 1517  sudo docker-compose up -d --build
+ 1518  sudo docker compose up -d --build
+ 1519  docker ps
+ 1520  docker-compose images
+ 1521  cd ..
+ 1522  ls
+ 1523  cd ITI/
+ 1524  ls
+ 1525  cd Laravel-Docker/
+ 1526  docker compos up -d
+ 1527  docker compose up -d
+ 1528  docker image ps 
+ 1529  docker image ls
+ 1530  docker remove mysql
+ 1531  docker remove ae2502152260
+ 1532  docker remove mysql-8.1
+ 1533  docker image rm  mysql
+ 1534  docker image rm  mysql:8.1
+ 1535  docker image rm  laravel-docker_php
+ 1536  docker image ls
+ 1537  docker image rm  laravel-docker-php
+ 1538  docker image ls
+ 1539  docker image rm  laravel-docker-php
+ 1540  docker image rm 18539c836864
+ 1541  docker ps
+ 1542  ls
+ 1543  vim docker-compose.yml 
+ 1544  sudo docker compose up -d --build 
+ 1545  ps -aux |grep apache
+ 1546  netstat -nap |grep 80
+ 1547  ls
+ 1548  docker compose exec php bash
+ 1549  exit
+ 1550  apt install top
+ 1551  sudo apt install top
+ 1552  sudo apt cache search nntop
+ 1553  sudo apt-cache search nntop
+ 1554  sudo apt-cache search top
+ 1555  sudo apt-cache search top |more 
+ 1556  sudo apt-cache search htop
+ 1557  sudo apt install  htop
+ 1558  htop
+ 1559  cd
+ 1560  cd ITI
+ 1561  cd Laravel-Docker/
+ 1562  ls
+ 1563  vim docker-compose.yml 
+ 1564  docker-compose up -d
+ 1565  netstat -nap |grep 80
+ 1566  systemctl stop apache2
+ 1567  netstat -nap |grep 80
+ 1568  systemctl stop apache2
+ 1569  netstat -nap |grep 80
+ 1570  ps -aux |grep 80
+ 1571  ps -aux |grep nginx
+ 1572  systemctl stop nginx
+ 1573  ps -aux |grep 80
+ 1574  ps -aux |grep 3306
+ 1575  docker-compose up -d
+ 1576  docker ps
+ 1577  sudo docker ps
+ 1578  exit
+ 1579  nmap -sT -p 22 196.168.8.0/24
+ 1580  sudo apt install nmap
+ 1581  exit
+ 1582  clear
+ 1583  cd
+ 1584  pwd
+ 1585  cd 3BG
+ 1586  ls
+ 1587  ls -l
+ 1588  pwd
+ 1589  ls -l 
+ 1590  cd 3bg-practicos/
+ 1591  cat .git/config 
+ 1592  git status
+ 1593  git checkstatus
+ 1594  git pull
+ 1595  git checkout 
+ 1596  vim README.md 
+ 1597  git commit -m "Agregue la consigna por Git"
+ 1598  git add .
+ 1599  git commit -m "Agregue la consigna por Git"
+ 1600  ls -l
+ 1601  cd practico1/
+ 1602  ls
+ 1603  cd ..
+ 1604  cd practico1/
+ 1605  cat Grupo.txt 
+ 1606  cd ..
+ 1607  pwd
+ 1608  git push
+ 1609  clear
+ 1610  git config --global user.email "damian.pajares@docente.ceibal.edu.uy"
+ 1611  export PS1="WS"
+ 1612  export PS1="CMD:"
+ 1613  git config --global user.name "Juan Pajares"
+ 1614  cd
+ 1615  cat .git/config 
+ 1616  clear
+ 1617  nmap -sT -p 22 196.168.8.0/24
+ 1618  exit
+ 1619  cd 3BJ
+ 1620  ls
+ 1621  cat .git
+ 1622  cd 3bj-practicos/
+ 1623  cat .git/
+ 1624  cat .git/config 
+ 1625  cd
+ 1626  clear
+ 1627  pwd
+ 1628  cat .git/config 
+ 1629  git config --global user.name "Juan Pajares"
+ 1630  export PS1="CMD:"
+ 1631  git config --global user.name "JuanDamianPajares"
+ 1632  clear
+ 1633  ssh-keygen 
+ 1634  cat .ssh/id_rsa.pub 
+ 1635  cd 3BJ
+ 1636  cd 3bj-practicos/
+ 1637  git status
+ 1638  git chckout
+ 1639  git checkout
+ 1640  git push
+ 1641  git pull 
+ 1642  git chckoutclear
+ 1643  clera
+ 1644  clear
+ 1645  pwd
+ 1646  cd ..
+ 1647  git renote add origin git@github.com:BUCEO/UruDevs-Proyecto2024.git
+ 1648  git remote add origin git@github.com:BUCEO/UruDevs-Proyecto2024.git
+ 1649  branch -M main
+ 1650  git branch -M main
+ 1651  git status
+ 1652  pwd
+ 1653  clear
+ 1654  pwd
+ 1655  mkdir CodeForgeNest
+ 1656  pwd
+ 1657  git status
+ 1658  pwd
+ 1659  ls
+ 1660  cd CodeForgeNest/
+ 1661  lcear
+ 1662  pwd
+ 1663  clear
+ 1664  pwd
+ 1665  git remote add origin git@github.com:BUCEO/UruDevs-Proyecto2024.git
+ 1666  git branch -M main
+ 1667  git status
+ 1668  pwd
+ 1669  clear
+ 1670  cd
+ 1671  cat .git/config 
+ 1672  vim  .git/config 
+ 1673  pwd
+ 1674  clear
+ 1675  cd 3BJ
+ 1676  cd CodeForgeNest/
+ 1677  ls
+ 1678  pwd
+ 1679  cd ..
+ 1680  rm -rf CodeForgeNest/
+ 1681  git clone git@github.com:BUCEO/CodeForgeNest.git
+ 1682  git status
+ 1683  pwd
+ 1684  cd clear
+ 1685  clear
+ 1686  cd CodeForgeNest/
+ 1687  git status
+ 1688  ls
+ 1689  vim hola.txt
+ 1690  cd ..
+ 1691  pwd
+ 1692  cd ..
+ 1693  ls
+ 1694  cd ITI
+ 1695  ls
+ 1696  cd Laravel
+ 1697  cd Laravel-Docker/
+ 1698  ls -l
+ 1699  pwd
+ 1700  git pull 
+ 1701  git status
+ 1702  cat config/database.php 
+ 1703  lclera
+ 1704  pwd
+ 1705  clear
+ 1706  git commit  -m "Actualiza config db"
+ 1707  git add .
+ 1708  git commit  -m "Actualiza config db"
+ 1709  git push
+ 1710  pwd
+ 1711  ls
+ 1712  docker-compose up -d 
+ 1713  docker-compose up -d build
+ 1714  docker-compose up --build
+ 1715  cd config/
+ 1716  ls
+ 1717  vim database.php 
+ 1718  cd
+ 1719  ls
+ 1720  cd ITI
+ 1721  ls
+ 1722  cd Laravel-Docker/
+ 1723  ls
+ 1724  cd config/
+ 1725  ls
+ 1726  cd ..
+ 1727  ls
+ 1728  cd .docker/
+ 1729  ls
+ 1730  vim dm
+ 1731  vim db/
+ 1732  cd ..
+ 1733  docker-compose --build 
+ 1734  docker-compose up --build 
+ 1735  docker compose up --build 
+ 1736  docker compose remove laravel-docker-php-1
+ 1737  docker compose rm laravel-docker-php-1
+ 1738  docker compose image ls
+ 1739  docker compose ls
+ 1740  docker compose image 
+ 1741  docker images list
+ 1742  docker imagesls
+ 1743  docker images ls
+ 1744  docker images
+ 1745  docker compose rm laravel-docker_php 
+ 1746  docker compose rm laravel-docker_php-1
+ 1747  docker compose rm 
+ 1748  docker-compose up --build 
+ 1749  systemctl disable apache2.service 
+ 1750  systemctl stop apache
+ 1751  systemctl stop apache2
+ 1752  systemctl disable apache2.service 
+ 1753  sudo su -
+ 1754  docker-compose up --build 
+ 1755  systemctl stop apache2
+ 1756  docker-compose up --build 
+ 1757  systemctl stop mysql
+ 1758  docker-compose up --build 
+ 1759  ps -aux |grep 80
+ 1760  netstat -nap |grep 80
+ 1761  systemctl stop nginx
+ 1762  docker-compose up --build 
+ 1763  ls
+ 1764  cd .docker/
+ 1765  ls
+ 1766  vim php
+ 1767  cd ..
+ 1768  pwd
+ 1769  docker-compose up --build 
+ 1770  vim .docker/php
+ 1771  docker-compose up --build 
+ 1772  vim .docker/php
+ 1773  docker-compose up --build 
+ 1774  vim .docker/php
+ 1775  docker-compose up --build 
+ 1776  vim .docker/php
+ 1777  docker-compose up --build 
+ 1778  vim .docker/php
+ 1779  docker-compose up --build 
+ 1780  vim .docker/php
+ 1781  docker-compose up --build 
+ 1782  vim .docker/php
+ 1783  docker-compose up --build 
+ 1784  vim .docker/php
+ 1785  docker-compose up --build 
+ 1786  vim .docker/php
+ 1787  docker-compose up --build 
+ 1788  vim .docker/php
+ 1789  docker-compose up --build 
+ 1790  vim .docker/php
+ 1791  ls
+ 1792  cd public/
+ 1793  ls
+ 1794  cd build/
+ 1795  ls
+ 1796  cd ..
+ 1797  ls
+ 1798  cat index.php 
+ 1799  cd ..
+ 1800  vim .docker/php
+ 1801  docker-compose up --build 
+ 1802  vim .docker/php
+ 1803  docker-compose up --build 
+ 1804  vim .docker/php
+ 1805  docker-compose up --build 
+ 1806  vim .docker/php
+ 1807  cd
+ 1808  history 
+ 1809  git config --global user.name "JuanDamianPajares"
+ 1810  git config --global user.email "damian.pajares@gmail.com"
+ 1811  ssh-keygen 
+ 1812  cat /home/juan/.ssh/id_rsa.pub 
+ 1813  cd
+ 1814  pwd
+ 1815  cd .ssh/
+ 1816  ls -l
+ 1817  cat id_rsa.pub 
+ 1818  ssh-keygen  -t rsa
+ 1819  exit
+ 1820  clear
+ 1821  pwd
+ 1822  cd ITI/
+ 1823  cd Laravel-Docker/
+ 1824  docker-compose up -d
+ 1825  docker-compose down -d
+ 1826  docker-compose down 
+ 1827  clear
+ 1828  cd
+ 1829  systemctl start apache 
+ 1830  clear
+ 1831  systemctl start apache2 
+ 1832  netstat -nap |grep 80
+ 1833  dpkg -l |grep apache
+ 1834  cat /etc/issue
+ 1835  systemctl mysql status
+ 1836  systemctl  status mysql
+ 1837  systemctl  start mysql
+ 1838  systemctl  status mysql
+ 1839  dpkg -l |grep mysql
+ 1840  clear
+ 1841  mysql -u root 
+ 1842  mysql -u root  -p
+ 1843  sudo su -
+ 1844  clear
+ 1845  netstat -nap |grep 3306
+ 1846  cd /var/www/
+ 1847  ls
+ 1848  cd html/
+ 1849  ls
+ 1850  pwd
+ 1851  vim index.
+ 1852  cler
+ 1853  clear
+ 1854  pwd
+ 1855  vim index.php 
+ 1856  php echo '<p>Hello World</p>';
+ 1857  echo '<p>Hello World</p>';
+ 1858  php
+ 1859  ls
+ 1860  php --version
+ 1861  clear
+ 1862  cd
+ 1863  ls -l
+ 1864  exit
+ 1865  ip a 
+ 1866  cat /etc/hosts
+ 1867  ping web.acme.com
+ 1868  ping DESKTOP-UA2D0S8
+ 1869  ping DESKTOP-UA2DOS8
+ 1870  echoclear
+ 1871  clear
+ 1872  cls
+ 1873  clear
+ 1874  echo $PS1=CMD
+ 1875  echo PS1=CMD
+ 1876  export  PS1=CMD
+ 1877  export  PS1=CMD:
+ 1878  ho
+ 1879  who
+ 1880  q
+ 1881  ecclear
+ 1882  clear
+ 1883  echo $HOME
+ 1884  export HOME=pepe
+ 1885  echo $HOME
+ 1886  export HOME=/home/juan
+ 1887  echo $HOME
+ 1888  vim /etc/hosts
+ 1889  cd
+ 1890  touch p
+ 1891  vim p
+ 1892  cat p
+ 1893  rm p
+ 1894  vim p
+ 1895  cat p
+ 1896  vim p
+ 1897  cat p
+ 1898  vim p
+ 1899  rm p
+ 1900  touch p
+ 1901  rm p
+ 1902  man
+ 1903  man rm
+ 1904  mkdir hola
+ 1905  rm hola/
+ 1906  rm -d hola/
+ 1907  hostname
+ 1908  uname -na
+ 1909  cd
+ 1910  cd UTU
+ 1911  ls
+ 1912  cd 3BG
+ 1913  ls
+ 1914  cd 3bg-practicos/
+ 1915  pwd
+ 1916  ls
+ 1917  vim hello.sh 
+ 1918  ./hello.sh
+ 1919  ls -l hello.sh 
+ 1920  chmod u+x hello.sh 
+ 1921  ls -l
+ 1922  ls -l hello.sh 
+ 1923  chmod u-x hello.sh 
+ 1924  ls -l hello.sh 
+ 1925  chmod 775 hello.sh 
+ 1926  ls -l hello.sh 
+ 1927  chmod 744 hello.sh 
+ 1928  ls -l hello.sh 
+ 1929  chmod 764 hello.sh 
+ 1930  ls -l hello.sh 
+ 1931  chown portela.portela hello.sh
+ 1932  cat /etc/passwd
+ 1933  useradd user3gb
+ 1934  sudo useradd user3gb
+ 1935  cat /etc/passwd
+ 1936  sudo userdel user3gb
+ 1937  cat /etc/skel/.profile 
+ 1938  sudo adduser
+ 1939  sudo adduser usuario3bg
+ 1940  chown usuario3bg hello.sh 
+ 1941  sudo chown usuario3bg hello.sh 
+ 1942  ls -l
+ 1943  chgrp usuario3bg hello.sh 
+ 1944  sudo chgrp usuario3bg hello.sh 
+ 1945  ls -l
+ 1946  sudo login 
+ 1947  cp hello.sh  /home/usuario3bg/
+ 1948  sudo cp hello.sh  /home/usuario3bg/
+ 1949  sudo login 
+ 1950  rm /home/usuario3bg/hello.sh
+ 1951  sudo rm /home/usuario3bg/hello.sh
+ 1952  man cp
+ 1953  cd
+ 1954  sudo cp -p hello.sh  /home/usuario3bg/
+ 1955  sudo login
+ 1956  sudo visudo
+ 1957  sudo vim /etc/group
+ 1958  sudo login
+ 1959  pwd
+ 1960  cd 3BG
+ 1961  cd 3bg-practicos/
+ 1962  ls
+ 1963  vim hello.sh 
+ 1964  ip a
+ 1965  ipa 
+ 1966  ip a
+ 1967  pwd
+ 1968  ls
+ 1969  vim hello.sh 
+ 1970  cd
+ 1971  pwd
+ 1972  cd 3BG
+ 1973  cd 3bg-practicos/
+ 1974  git pull 
+ 1975  git add hello.sh 
+ 1976  git commit -m "prueba bash"
+ 1977  git push
+ 1978  pwd
+ 1979  ls
+ 1980  chmod -x hello.sh 
+ 1981  ls -l
+ 1982  chmod +x hello.sh 
+ 1983  ./hello.sh 
+ 1984  exit
+ 1985  history 
+ 1986  exit
+ 1987  apt install openssh-server
+ 1988  sudo apt install openssh-server
+ 1989  ssh-keygen 
+ 1990  cat .ssh/authorized_keys 
+ 1991  vim  .ssh/authorized_keys 
+ 1992  ssh localhost
+ 1993  ssh-copy-id localhost
+ 1994  cat .ssh/authorized_keys 
+ 1995  cat .ssh/id_rsa
+ 1996  cat .ssh/id_rsa.pub 
+ 1997  cat .ssh/authorized_keys 
+ 1998  ip
+ 1999  ip a
+ 2000  adduser usuario3bj
+ 2001  sudo adduser usuario3bj
+ 2002  export PS1=CMD:
+ 2003  cat /etc/issue
+ 2004  uname -na
+ 2005  ip a
+ 2006  man ip a
+ 2007  man ip brief
+ 2008  man ip a h
+ 2009  ip a -h
+ 2010  man ip a h
+ 2011  man ip -a a 
+ 2012  ip addr -h
+ 2013  ping localhost
+ 2014  hostname
+ 2015  vim /etc/hosts
+ 2016  ping www.x250.com
+ 2017  vim /etc/hosts
+ 2018  apt install apache2
+ 2019  sudo apt install apache2
+ 2020  sudo apt install mysql
+ 2021  sudo apt install mysql-server
+ 2022  sudo su -
+ 2023  pwd
+ 2024  clear
+ 2025  cd 3BJ
+ 2026  ls
+ 2027  cd 3bj-practicos/
+ 2028  ls
+ 2029  vim hello.sh 
+ 2030  touch p
+ 2031  ls -l
+ 2032  ls -l p
+ 2033  rm p
+ 2034  vim p
+ 2035  ls -l
+ 2036  rm p
+ 2037  vim p
+ 2038  ls -l
+ 2039  ls -l p
+ 2040  history > p
+ 2041  cat p
+ 2042  rm p
+ 2043  echo "#comandos linux " >  p
+ 2044  cat p
+ 2045  echo "#comandos linux " >>  p
+ 2046  cat p
+ 2047  cat /etc/issue > p
+ 2048  cat p
+ 2049  vim hello.sh 
+ 2050  chmod +x hello.sh 
+ 2051  ls -l
+ 2052  chmod 660 hello.sh 
+ 2053  ls -l hello.sh 
+ 2054  chown usuario3bj hello.sh 
+ 2055  sudo chown usuario3bj hello.sh 
+ 2056  ls -l hello.sh 
+ 2057  chgrp usuario3bj hello.sh 
+ 2058  sudo chgrp usuario3bj hello.sh 
+ 2059  ls -l hello.sh 
+ 2060  vim /etc/group
+ 2061  sudo vim /etc/group
+ 2062  clear
+ 2063  sudo chown juan.juan hello.sh 
+ 2064  ls -l hello.sh 
+ 2065  mkdir hola
+ 2066  rm hola/
+ 2067  rm -d hola/
+ 2068  mkdir hola
+ 2069  rmdir hola
+ 2070  useradd ppe
+ 2071  sudo useradd ppe
+ 2072  userdel ppe
+ 2073  sudo userdel ppe
+ 2074  clear
+ 2075  chmod 775 hello.sh 
+ 2076  ./hello.sh 
+ 2077  vim hello.sh 
+ 2078  pwd
+ 2079  git status
+ 2080  clear
+ 2081  git add hello.sh 
+ 2082  git status 
+ 2083  rm p
+ 2084  git status 
+ 2085  clear
+ 2086  git commit -m "hola modificado"
+ 2087  git pull 
+ 2088  git pull
+ 2089  git status 
+ 2090  clear
+ 2091  git push
+ 2092  systemctl start apache2
+ 2093  pwd
+ 2094  chmod +x hello.sh 
+ 2095  ./hello.sh 
+ 2096  clear
+ 2097  history > historialcomandos.txt
