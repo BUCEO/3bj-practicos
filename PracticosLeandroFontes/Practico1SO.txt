@@ -1,0 +1,21 @@
+
+1) Instalar Linux Servidor
+a) Instalar servidor SSH
+Comandos:
+1.	Instalar Ubuntu:
+wsl.exe –install -d Ubuntu
+
+2.	Instalar OpenSSH Server:
+sudo apt install openssh-server
+
+b) Instalar servidor WEB
+Comandos:
+1.	Instalar Apache (servidor web):
+sudo apt install apache2
+
+c) Instalar el paquete net-tools
+Comandos:
+1.	Instalar net-tools:
+sudo apt -y install net-tools
+2) Instalar Linux Cliente
+pendiente
