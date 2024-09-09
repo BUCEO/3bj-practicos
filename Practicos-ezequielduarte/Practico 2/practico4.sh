@@ -1,0 +1,4 @@
+if [ "$1" == "tty1" ]
+then 
+	echo "saludso cordiales $(whoami)" 
+fi

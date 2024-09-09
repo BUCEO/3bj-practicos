@@ -1,0 +1,186 @@
+    1  for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+    2  sudo apt-get update
+    3  sudo apt-get install ca-certificates curl
+    4  sudo install -m 0755 -d /etc/apt/keyrings
+    5  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+    6  sudo chmod a+r /etc/apt/keyrings/docker.asc
+    7  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+    8  sudo docker run hello-world
+    9  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+   10  # Add Docker's official GPG key:
+   11  sudo apt-get update
+   12  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+   13  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   14  y
+   15  yes
+   16  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   17  yes
+   18  c
+   19  yes
+   20  y
+   21  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   22  Y
+   23  y
+   24  no
+   25  nn
+   26  n
+   27  docker -v
+   28  deb [arch=amd64] https://download.docker.com/linux/ubuntu artful stable
+   29  $ sudo snap install docker
+   30  docker
+   31  apt install docker
+   32  sudo apt install docker
+   33  $docker -v
+   34  docker
+   35  $docker -V
+   36  $docker -d
+   37  sudo $docker -d
+   38  sudo $docker -v
+   39  -v
+   40  sudo docker run hello-world
+   41  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+   42  sudo apt-get update
+   43  sudo apt-get install
+   44  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg     lsb-release
+   45  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+   46  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-pluginsudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-pluginsudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-pluginsudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-pluginsudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-pluginsudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-pluginsudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+   47  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+   48  sudo docker run hello-world
+   49  docker 
+   50  docker --version
+   51  wsl
+   52  clear
+   53  docker
+   54  dock
+   55  docker run
+   56  doker run
+   57  docker
+   58  sudo apt install docker
+   59  docker
+   60  ls
+   61  s3s3dewdwedlw
+   62  e
+   63  +ercfñeqrpvckoprjmvkq n
+   64  ls
+   65  sudo apt install vim
+   66  vim
+   67  vim prectico.txt
+   68  sudo chmod 777 prectico.txt
+   69  ./ prectico.txt
+   70  ./prectico.txt
+   71  ./prectico.txt hola
+   72  vim prectico.txt
+   73  ./prectico.txt hola
+   74  ./prectico.txt /hola
+   75  ./prectico.txt C:
+   76  ./prectico.txt prectico.txt
+   77  vim prectico.txt
+   78  ./prectico.txt prectico.txt
+   79  vim prectico.txt
+   80  ./prectico.txt prectico.txt
+   81  vim prectico.txt
+   82  ./prectico.txt prectico.txt
+   83  vim prectico.txt
+   84  ./prectico.txt prectico.txt
+   85  vim prectico.txt
+   86  ./prectico.txt prectico.txt
+   87  vim prectico.txt
+   88  vim prectico2.txt
+   89  chmod 777 prectico2.txt
+   90  ./prectico2.txt prectico.txt
+   91  vim prectico2.txt
+   92  ./prectico2.txt prectico.txt
+   93  vim prectico2.txt
+   94  ./prectico2.txt prectico.txt
+   95  vim prectico2.txt
+   96  vim prectico3.txt
+   97  ./prectico3.txt prectico.txt
+   98  chmod 777 prectico3.txt
+   99  ./prectico3.txt prectico.txt
+  100  vim prectico3.txt
+  101  ./prectico3.txt prectico.txt
+  102  vim prectico3.txt
+  103  ./prectico3.txt prectico.txt
+  104  vim prectico3.txt
+  105  ./prectico3.txt prectico.txt
+  106  ./prectico3.txt 
+  107  vim prectico4.txt
+  108  chmod 777 prectico4.txt
+  109  ./prectico4.txt 
+  110  vim prectico4.txt
+  111  ./prectico4.txt 
+  112  vim prectico4.txt
+  113  ./prectico4.txt 
+  114  ./prectico4.txt tty1
+  115  vim prectico4.txt
+  116  vim prectico4.txt tty1
+  117  ./prectico4.txt tty1
+  118  vim prectico4.txt tty1
+  119  ./prectico4.txt tty1
+  120  vim prectico4.txt
+  121  ./prectico4.txt tty1
+  122  vim prectico4.txt
+  123  ./prectico4.txt tty1
+  124  vim prectico4.txt
+  125  ./prectico4.txt tty1
+  126  vim prectico4.txt
+  127  ./prectico4.txt tty1
+  128  vim prectico4.txt
+  129  ./prectico4.txt tty1
+  130  vim prectico.txt
+  131  vim prectico5.txt
+  132  chmod 777 prectico5.txt
+  133  ./prectico5.txt
+  134  ./prectico5.txt echo
+  135  ./prectico5.txt apt
+  136  ./prectico5.txt bash
+  137  ./prectico5.txt help
+  138  ./prectico5.txt .
+  139  help
+  140  ./prectico5.txt echo
+  141  vim prectico5.txt
+  142  ./prectico5.txt echo
+  143  vim prectico5.txt
+  144  ./prectico5.txt echo
+  145  ./prectico5.txt .
+  146  ./prectico5.txt apt
+  147  history 
+  148  history > historial.txt
+  149  ls
+  150  ap
+  151  sudo apt install net-tools
+  152  history
+  153  $ eval "$(ssh-agent -s)"
+  154  eval "$(ssh-agent -s)"
+  155  > Agent pid 59566
+  156  eval "$(ssh-agent -s)"
+  157  > Agent pid 59566eval "$(ssh-agent -s)"
+  158  ssh-add ~/.ssh/id_ed25519
+  159  $ cat ~/.ssh/id_ed25519.pub
+  160  cat ~/.ssh/id_ed25519.pub
+  161  git clone git@github.com:BUCEO/3bj-practicos.git
+  162  ls
+  163  git status
+  164  cd 3bj-practicos
+  165  git status
+  166  git add
+  167  git add .
+  168  git status
+  169  git comit -m | "cambios en practicos ezequiel duarte para el practico 3"
+  170  git commit -m | "cambios en practicos ezequiel duarte para el practico 3"
+  171  git commit -m  "cambios en practicos ezequiel duarte para el practico 3"
+  172  git config --global user.email "ezequieldurante640@gmail.com"
+  173  git config --global user.name "eze"
+  174  git commit -m  "cambios en practicos ezequiel duarte para el practico 3"
+  175  git push -u 3bj-practicos main
+  176  git push -u origin main
+  177  ls
+  178  cd Practicos. ezequiel duarte
+  179  cd Practicos.ezequielduarte
+  180  cd Practicos. ezequiel duarte'
+  181  cd Practicos. ezequiel duarte
+  182  ls
+  183  cd Practicos-ezequielduarte
+  184  ls
+  185  cd 'Practico 3'
+  186  history > historial,txt

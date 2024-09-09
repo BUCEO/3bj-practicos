@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2024-04-28T15:12:15.807Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="UzzW4XiBAX-eQXeONWl2" version="24.3.1" type="device">
+  <diagram name="Página-1" id="58U6DBnEWk3DAo7Tz_SN">
+    <mxGraphModel dx="1633" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="36H2ZZSrCBlhvjLN7zxC-2" value="WINDOWS 11 PRO&amp;nbsp; //&amp;nbsp; VERSIÓN 23H2" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="320" width="426" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="FNAg44kvoemzqPWaHeef-14" value="WSL | UBUNTU 22.04.03 (LTS)" style="rounded=0;whiteSpace=wrap;html=1;" parent="36H2ZZSrCBlhvjLN7zxC-2" vertex="1">
+          <mxGeometry x="13" y="40" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FNAg44kvoemzqPWaHeef-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="36H2ZZSrCBlhvjLN7zxC-2" source="FNAg44kvoemzqPWaHeef-15" target="FNAg44kvoemzqPWaHeef-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNAg44kvoemzqPWaHeef-15" value="APACHE 2.4.59" style="rounded=0;whiteSpace=wrap;html=1;" parent="36H2ZZSrCBlhvjLN7zxC-2" vertex="1">
+          <mxGeometry x="10" y="90" width="113" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FNAg44kvoemzqPWaHeef-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="36H2ZZSrCBlhvjLN7zxC-2" source="FNAg44kvoemzqPWaHeef-16" target="FNAg44kvoemzqPWaHeef-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNAg44kvoemzqPWaHeef-16" value="PHP 8.3.6" style="rounded=0;whiteSpace=wrap;html=1;" parent="36H2ZZSrCBlhvjLN7zxC-2" vertex="1">
+          <mxGeometry x="10" y="140" width="113" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FNAg44kvoemzqPWaHeef-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="36H2ZZSrCBlhvjLN7zxC-2" source="FNAg44kvoemzqPWaHeef-17" target="FNAg44kvoemzqPWaHeef-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNAg44kvoemzqPWaHeef-17" value="MY SQL 8.3.0" style="rounded=0;whiteSpace=wrap;html=1;" parent="36H2ZZSrCBlhvjLN7zxC-2" vertex="1">
+          <mxGeometry x="10" y="190" width="113" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FNAg44kvoemzqPWaHeef-18" value="HTDOCS C:\xampp\htdocs" style="rounded=0;whiteSpace=wrap;html=1;" parent="36H2ZZSrCBlhvjLN7zxC-2" vertex="1">
+          <mxGeometry x="163" y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FNAg44kvoemzqPWaHeef-23" value="DATA BASE C:\xampp\mysql" style="rounded=0;whiteSpace=wrap;html=1;" parent="36H2ZZSrCBlhvjLN7zxC-2" vertex="1">
+          <mxGeometry x="163" y="190" width="250" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
